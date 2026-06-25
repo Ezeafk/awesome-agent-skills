@@ -1,0 +1,60 @@
+name: Submit a skill
+description: Suggest a reusable AI agent skill, workflow, or tool-backed capability.
+title: "Add: "
+labels:
+  - skill-submission
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: What real task does this help an agent complete?
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: Codex, Claude, ChatGPT, Cursor, Copilot, MCP, Generic Agent
+    validations:
+      required: true
+  - type: input
+    id: includes
+    attributes:
+      label: What does it include?
+      placeholder: Workflow, scripts, references, templates, MCP server, connector, examples
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Active
+        - Stable
+        - Use with care
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety notes
+      description: Required for workflows touching accounts, credentials, production, deletion, payment, security, browser automation, or bulk external actions.
