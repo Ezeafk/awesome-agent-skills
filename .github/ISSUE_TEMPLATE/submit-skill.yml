@@ -43,6 +43,14 @@ body:
         - Unknown
     validations:
       required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation score
+      description: Score the skill out of 10 using the README rubric: task clarity 0-2, reusable structure 0-2, platform/tool fit 0-2, validation/examples 0-2, maintenance/safety 0-2.
+      placeholder: "Example: 8/10 — task clarity 2, reusable structure 2, platform/tool fit 2, validation/examples 1, maintenance/safety 1."
+    validations:
+      required: true
   - type: dropdown
     id: risk
     attributes:

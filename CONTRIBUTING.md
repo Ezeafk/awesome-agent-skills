@@ -25,6 +25,25 @@ Use the existing table format:
 
 Keep descriptions factual and compact.
 
+## Evaluation Score
+
+Every submission should be scored before it is added. Stars are only a weak signal; reviewers should prioritize whether the skill helps an agent complete a real task safely and repeatably.
+
+| Area | Points | Review focus |
+|---|---:|---|
+| Task clarity | 0-2 | Clear real-world use case, inputs, outputs, and target user. |
+| Reusable structure | 0-2 | More than a prompt: skill files, workflows, templates, scripts, examples, or references. |
+| Platform and tool fit | 0-2 | Clear support for Codex, Claude, ChatGPT, Cursor, Copilot, MCP, n8n, CLI, browser, API, or local app workflows. |
+| Validation and examples | 0-2 | Demo, tests, sample usage, CI checks, schema, or step-by-step verification. |
+| Maintenance and safety | 0-2 | Recent activity, license clarity, safe defaults, confirmation rules, and credential/privacy guidance. |
+
+Inclusion guide:
+
+- 8-10: recommended.
+- 6-7: acceptable with caveats.
+- 4-5: use with care or re-review.
+- Below 4: remove or do not include.
+
 ## Status Guide
 
 - Active: recent commit, release, issue reply, or PR activity.
@@ -41,6 +60,7 @@ Keep descriptions factual and compact.
 
 - [ ] Link points to the canonical repository.
 - [ ] The project is not just a prompt dump.
+- [ ] Evaluation score is at least 6, or the PR explains why a lower-scoring skill is still worth tracking.
 - [ ] Platform, use case, includes, status, and risk are filled.
 - [ ] Safety caveats are included for sensitive workflows.
 - [ ] Link check passes.

@@ -21,6 +21,20 @@
 | Status | Active = недавняя поддержка; Stable = все еще полезно, но обновляется медленнее; Use with care = ценно, но чувствительно |
 | Risk | Low = в основном read-only или генерация контента; Medium = файлы, APIs, accounts, browser automation; High = production, security, deletion, payments, credentials, bulk actions |
 
+## Метод Оценки
+
+Skills оцениваются перед включением. Stars — только слабый сигнал; нишевый skill можно включить, если он решает реальную задачу, имеет переиспользуемую структуру и дает agents достаточно instructions или tools для безопасного выполнения.
+
+| Область | Баллы | Что проверяется |
+|---|---:|---|
+| Ясность задачи | 0-2 | Понятный реальный use case, inputs, outputs и целевой пользователь. |
+| Переиспользуемая структура | 0-2 | Больше чем prompt: skill files, workflows, templates, scripts, examples или references. |
+| Платформа и инструменты | 0-2 | Явная поддержка Codex, Claude, ChatGPT, Cursor, Copilot, MCP, n8n, CLI, browser, API или local app workflows. |
+| Валидация и примеры | 0-2 | Demo, tests, sample usage, CI checks, schema или step-by-step verification. |
+| Поддержка и безопасность | 0-2 | Недавняя activity, понятная license, безопасные defaults, confirmation rules и credential/privacy guidance. |
+
+Ориентир включения: 8-10 = рекомендуется, 6-7 = допустимо с оговорками, 4-5 = use with care или повторная проверка, ниже 4 = удалить или не включать. High-risk workflows требуют более высокого балла и явных заметок по безопасности.
+
 ## Содержание
 
 - [Core Skill Registries](#core-skill-registries)
@@ -35,6 +49,7 @@
 - [Business Workflows](#business-workflows)
 - [Personal Productivity](#personal-productivity)
 - [Use With Care](#use-with-care)
+- [Метод Оценки](#метод-оценки)
 - [Selection Criteria](#selection-criteria)
 
 ## Core Skill Registries
@@ -46,7 +61,6 @@
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | Безопасный проверенный skill registry для профессиональных coding agents. | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Поисковый curated список AI-репозиториев, доступный через Claude Code skills. | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Registry для Claude workflow assets, agents, MCP servers, skills, commands и hooks. | Registry, agents, skills, MCP, commands | Active | Medium |
-| [linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills) | Generic Agent | Автообновляемый awesome list AI agent skills. | Awesome list, ratings, automation | Active | Low |
 
 ## Coding
 
@@ -77,9 +91,6 @@
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | Преобразование docs, GitHub repos и PDFs в Claude skills. | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | Programmatic NotebookLM workflows для agents. | Python API, CLI, agentic skill | Active | Medium |
-| [wuhanichina/powerlit-power-systems-writing-skills](https://github.com/wuhanichina/powerlit-power-systems-writing-skills) | Codex | Power-system paper writing skills на основе локального corpus. | Writing skills, domain corpus | Active | Low |
-| [kashmirscien3399/skills](https://github.com/kashmirscien3399/skills) | Generic Agent | Автоматизация literature review для arXiv и citation tracking. | Research skills, fetch/extract workflows | Active | Medium |
-| [londey/claude-skill-verilog](https://github.com/londey/claude-skill-verilog) | Claude Code | Работа с Verilog через domain skill. | Skill instructions, hardware domain workflow | Active | Low |
 
 ## Design and Frontend
 
@@ -87,8 +98,6 @@
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | Генерация ComfyUI workflow JSON из естественного языка. | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | Управление локальным ComfyUI end to end из agent. | Skill, prompt recipes, templates, automation | Active | Medium |
-| [martgueritainaccurate875/skills](https://github.com/martgueritainaccurate875/skills) | Cursor, Gemini CLI, Generic Agent | Skills для frontend, full-stack, mobile и shader development. | Skill definitions, development workflows | Active | Medium |
-| [AlexPEClub/ai-coding-starter-kit](https://github.com/AlexPEClub/ai-coding-starter-kit) | Generic Agent | Next.js starter со специализированными AI development agents. | Template, agents, development workflow | Active | Medium |
 
 ## Browser and Web
 
@@ -127,8 +136,6 @@
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Curated list MCP servers и tool-use capabilities. | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Обнаружение remote MCP servers. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent tools, servers, clients и integrations. | Awesome list, protocols, tooling | Active | Medium |
-| [Francis-Zxp/AI-SkillHub](https://github.com/Francis-Zxp/AI-SkillHub) | Codex, Claude Code, Antigravity | Desktop skill manager для импорта и деплоя skills. | Desktop app, skill import/sync | Active | Medium |
-| [sametcelikbicak/rolecraft](https://github.com/sametcelikbicak/rolecraft) | Claude Code, Cursor, OpenCode | Zero-dependency CLI для установки agent skills из любого источника. | CLI, installer workflow | Active | Medium |
 
 ## Business Workflows
 
@@ -136,8 +143,6 @@
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Большая коллекция workflow templates для AI agents и business automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI automations и agent workflows для business tools. | n8n workflows, examples | Active | Medium |
-| [carta/plugins](https://github.com/carta/plugins) | Claude, Codex, Copilot, MCP | Public plugins и skills для equity/startup workflows. | Plugins, MCP, skills | Active | High |
-| [tale-project/tale](https://github.com/tale-project/tale) | OpenClaw, Claude Code, Codex, Cursor | Orchestration и delegation работы между несколькими AI agents. | Orchestrator, workflows, MCP | Active | Medium |
 
 ## Personal Productivity
 
@@ -146,9 +151,6 @@
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | Workspace setup со skills, commands и hooks. | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | Repository-native memory, skills и knowledge workflows. | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | Meta-skill, который превращает знания repo в reusable skills. | Meta-skill, project skill generation | Active | Medium |
-| [JularDepick/user-thoughts.SKILL](https://github.com/JularDepick/user-thoughts.SKILL) | Codex, Claude Code, OpenCode | Организация user input в persistent project-bound idea repositories. | Agent skill, memory workflow | Active | Medium |
-| [shiquda/skills-sync](https://github.com/shiquda/skills-sync) | Codex, Claude Code, Cursor | Синхронизация, versioning и публикация локальных AI Agent Skills. | CLI, GitHub publishing workflow | Active | Medium |
-| [bardaxx/skillbook](https://github.com/bardaxx/skillbook) | Codex, Claude, Cursor | Portable playbooks для coding agents. | Markdown workflows, sharing model | Active | Low |
 
 ## Use With Care
 

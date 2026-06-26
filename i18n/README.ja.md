@@ -21,6 +21,20 @@
 | Status | Active = 最近メンテナンスあり；Stable = 更新は遅いが有用；Use with care = 有用だが慎重な扱いが必要 |
 | Risk | Low = 主に読み取りまたはコンテンツ生成；Medium = files、APIs、accounts、browser automation；High = production、security、deletion、payments、credentials、bulk actions |
 
+## 評価方法
+
+Skills は掲載前にスコアリングします。Stars は弱いシグナルにすぎません。ニッチな skill でも、実タスクを解決し、再利用可能な構造があり、agents が安全に実行できる十分な instructions や tools があれば掲載できます。
+
+| 領域 | 点数 | 確認内容 |
+|---|---:|---|
+| タスク明確性 | 0-2 | 明確な実ユースケース、inputs、outputs、対象ユーザー。 |
+| 再利用可能な構造 | 0-2 | prompt 以上のもの: skill files、workflows、templates、scripts、examples、references。 |
+| Platform と tool の適合 | 0-2 | Codex、Claude、ChatGPT、Cursor、Copilot、MCP、n8n、CLI、browser、API、local app workflows の明確な対応。 |
+| 検証と例 | 0-2 | Demo、tests、sample usage、CI checks、schema、または step-by-step verification。 |
+| メンテナンスと安全性 | 0-2 | 最近の activity、明確な license、安全な defaults、confirmation rules、credential/privacy guidance。 |
+
+掲載目安: 8-10 = 推奨、6-7 = 注意付きで可、4-5 = Use with care または再審査、4 未満 = 削除または掲載しない。高リスク workflows にはより高いスコアと明確な安全メモが必要です。
+
 ## 目次
 
 - [Core Skill Registries](#core-skill-registries)
@@ -35,6 +49,7 @@
 - [Business Workflows](#business-workflows)
 - [Personal Productivity](#personal-productivity)
 - [Use With Care](#use-with-care)
+- [評価方法](#評価方法)
 - [Selection Criteria](#selection-criteria)
 
 ## Core Skill Registries
@@ -46,7 +61,6 @@
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | プロ向け coding agents のための安全に検証された skill registry。 | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Claude Code skills から利用できる検索可能な AI リポジトリ厳選リスト。 | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Claude workflow assets、agents、MCP servers、skills、commands、hooks の registry。 | Registry, agents, skills, MCP, commands | Active | Medium |
-| [linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills) | Generic Agent | 自動更新される AI agent skills の awesome list。 | Awesome list, ratings, automation | Active | Low |
 
 ## Coding
 
@@ -77,9 +91,6 @@
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | docs、GitHub repos、PDFs を Claude skills に変換。 | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | agents 向けの NotebookLM programmatic workflows。 | Python API, CLI, agentic skill | Active | Medium |
-| [wuhanichina/powerlit-power-systems-writing-skills](https://github.com/wuhanichina/powerlit-power-systems-writing-skills) | Codex | ローカル corpus から作る power-system paper writing skills。 | Writing skills, domain corpus | Active | Low |
-| [kashmirscien3399/skills](https://github.com/kashmirscien3399/skills) | Generic Agent | arXiv と citation tracking の literature review automation。 | Research skills, fetch/extract workflows | Active | Medium |
-| [londey/claude-skill-verilog](https://github.com/londey/claude-skill-verilog) | Claude Code | ドメイン skill を使って Verilog を扱う。 | Skill instructions, hardware domain workflow | Active | Low |
 
 ## Design and Frontend
 
@@ -87,8 +98,6 @@
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | 自然言語から ComfyUI workflow JSON を生成。 | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | agent からローカル ComfyUI をエンドツーエンドで操作。 | Skill, prompt recipes, templates, automation | Active | Medium |
-| [martgueritainaccurate875/skills](https://github.com/martgueritainaccurate875/skills) | Cursor, Gemini CLI, Generic Agent | frontend、full-stack、mobile、shader development skills。 | Skill definitions, development workflows | Active | Medium |
-| [AlexPEClub/ai-coding-starter-kit](https://github.com/AlexPEClub/ai-coding-starter-kit) | Generic Agent | 専門 AI development agents を備えた Next.js starter。 | Template, agents, development workflow | Active | Medium |
 
 ## Browser and Web
 
@@ -127,8 +136,6 @@
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | MCP servers と tool-use capabilities の厳選リスト。 | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | remote MCP server discovery。 | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent tools、servers、clients、integrations。 | Awesome list, protocols, tooling | Active | Medium |
-| [Francis-Zxp/AI-SkillHub](https://github.com/Francis-Zxp/AI-SkillHub) | Codex, Claude Code, Antigravity | skills の import と deployment のための desktop skill manager。 | Desktop app, skill import/sync | Active | Medium |
-| [sametcelikbicak/rolecraft](https://github.com/sametcelikbicak/rolecraft) | Claude Code, Cursor, OpenCode | 任意の source から agent skills をインストールする zero-dependency CLI。 | CLI, installer workflow | Active | Medium |
 
 ## Business Workflows
 
@@ -136,8 +143,6 @@
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | AI agents と business automation 向けの大規模 workflow template collection。 | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | business tools 向けの AI automations と agent workflows。 | n8n workflows, examples | Active | Medium |
-| [carta/plugins](https://github.com/carta/plugins) | Claude, Codex, Copilot, MCP | equity/startup workflows 向けの public plugins と skills。 | Plugins, MCP, skills | Active | High |
-| [tale-project/tale](https://github.com/tale-project/tale) | OpenClaw, Claude Code, Codex, Cursor | 複数 AI agents 間で作業を orchestrate し delegate する。 | Orchestrator, workflows, MCP | Active | Medium |
 
 ## Personal Productivity
 
@@ -146,9 +151,6 @@
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | skills、commands、hooks を含む workspace setup。 | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | repository-native memory、skills、knowledge workflows。 | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | repo knowledge を reusable skills に蒸留する meta-skill。 | Meta-skill, project skill generation | Active | Medium |
-| [JularDepick/user-thoughts.SKILL](https://github.com/JularDepick/user-thoughts.SKILL) | Codex, Claude Code, OpenCode | user input を永続的な project-bound idea repositories に整理。 | Agent skill, memory workflow | Active | Medium |
-| [shiquda/skills-sync](https://github.com/shiquda/skills-sync) | Codex, Claude Code, Cursor | ローカル AI Agent Skills を sync、version、publish。 | CLI, GitHub publishing workflow | Active | Medium |
-| [bardaxx/skillbook](https://github.com/bardaxx/skillbook) | Codex, Claude, Cursor | coding agents 向けの portable playbooks。 | Markdown workflows, sharing model | Active | Low |
 
 ## Use With Care
 

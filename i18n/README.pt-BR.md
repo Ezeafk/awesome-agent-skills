@@ -21,6 +21,20 @@ Nesta lista, uma skill é um pacote de capacidade reutilizável para um AI agent
 | Status | Active = manutenção recente; Stable = ainda útil com atualizações mais lentas; Use with care = valioso, mas sensível |
 | Risk | Low = principalmente leitura ou geração de conteúdo; Medium = arquivos, APIs, contas, automação de navegador; High = produção, segurança, exclusão, pagamentos, credenciais, ações em massa |
 
+## Método de Avaliação
+
+Skills são pontuadas antes da inclusão. Stars são apenas um sinal fraco; uma skill de nicho pode entrar quando resolve uma tarefa real, tem estrutura reutilizável e dá ao agent instruções ou ferramentas suficientes para executar com segurança.
+
+| Área | Pontos | O que revisar |
+|---|---:|---|
+| Clareza da tarefa | 0-2 | Caso real de uso, entradas, saídas e usuário-alvo claros. |
+| Estrutura reutilizável | 0-2 | Mais que um prompt: skill files, workflows, templates, scripts, examples ou references. |
+| Plataforma e ferramentas | 0-2 | Suporte claro a Codex, Claude, ChatGPT, Cursor, Copilot, MCP, n8n, CLI, browser, API ou workflows de app local. |
+| Validação e exemplos | 0-2 | Demo, testes, sample usage, CI checks, schema ou verificação passo a passo. |
+| Manutenção e segurança | 0-2 | Atividade recente, licença clara, defaults seguros, regras de confirmação e orientação de credenciais/privacidade. |
+
+Guia de inclusão: 8-10 = recomendado, 6-7 = aceitável com ressalvas, 4-5 = use com cuidado ou revise novamente, abaixo de 4 = remover ou não incluir. Workflows de alto risco precisam de pontuação mais forte e notas explícitas de segurança.
+
 ## Conteúdo
 
 - [Core Skill Registries](#core-skill-registries)
@@ -35,6 +49,7 @@ Nesta lista, uma skill é um pacote de capacidade reutilizável para um AI agent
 - [Business Workflows](#business-workflows)
 - [Personal Productivity](#personal-productivity)
 - [Use With Care](#use-with-care)
+- [Método de Avaliação](#método-de-avaliação)
 - [Selection Criteria](#selection-criteria)
 
 ## Core Skill Registries
@@ -46,7 +61,6 @@ Nesta lista, uma skill é um pacote de capacidade reutilizável para um AI agent
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | Registro seguro e validado de skills para agentes profissionais de programação. | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Lista curada e pesquisável de repositórios de IA exposta por Claude Code skills. | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Registro de assets de workflow do Claude, agents, MCP servers, skills, comandos e hooks. | Registry, agents, skills, MCP, commands | Active | Medium |
-| [linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills) | Generic Agent | Lista awesome autoatualizada de AI agent skills. | Awesome list, ratings, automation | Active | Low |
 
 ## Coding
 
@@ -77,9 +91,6 @@ Nesta lista, uma skill é um pacote de capacidade reutilizável para um AI agent
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | Converter docs, repositórios GitHub e PDFs em Claude skills. | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | Workflows programáticos do NotebookLM para agentes. | Python API, CLI, agentic skill | Active | Medium |
-| [wuhanichina/powerlit-power-systems-writing-skills](https://github.com/wuhanichina/powerlit-power-systems-writing-skills) | Codex | Skills de escrita de artigos de sistemas elétricos a partir de um corpus local. | Writing skills, domain corpus | Active | Low |
-| [kashmirscien3399/skills](https://github.com/kashmirscien3399/skills) | Generic Agent | Automação de revisão bibliográfica para arXiv e rastreamento de citações. | Research skills, fetch/extract workflows | Active | Medium |
-| [londey/claude-skill-verilog](https://github.com/londey/claude-skill-verilog) | Claude Code | Trabalhar com Verilog usando uma skill de domínio. | Skill instructions, hardware domain workflow | Active | Low |
 
 ## Design and Frontend
 
@@ -87,8 +98,6 @@ Nesta lista, uma skill é um pacote de capacidade reutilizável para um AI agent
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | Gerar JSON de workflow ComfyUI a partir de linguagem natural. | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | Controlar o ComfyUI local de ponta a ponta a partir de um agente. | Skill, prompt recipes, templates, automation | Active | Medium |
-| [martgueritainaccurate875/skills](https://github.com/martgueritainaccurate875/skills) | Cursor, Gemini CLI, Generic Agent | Skills de desenvolvimento frontend, full-stack, mobile e shader. | Skill definitions, development workflows | Active | Medium |
-| [AlexPEClub/ai-coding-starter-kit](https://github.com/AlexPEClub/ai-coding-starter-kit) | Generic Agent | Starter Next.js com agentes especializados de desenvolvimento com IA. | Template, agents, development workflow | Active | Medium |
 
 ## Browser and Web
 
@@ -127,8 +136,6 @@ Nesta lista, uma skill é um pacote de capacidade reutilizável para um AI agent
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Lista curada de MCP servers e capacidades de tool-use. | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Descoberta de MCP servers remotos. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Ferramentas, servers, clients e integrações Agent2Agent. | Awesome list, protocols, tooling | Active | Medium |
-| [Francis-Zxp/AI-SkillHub](https://github.com/Francis-Zxp/AI-SkillHub) | Codex, Claude Code, Antigravity | Gerenciador desktop de skills para importar e implantar skills. | Desktop app, skill import/sync | Active | Medium |
-| [sametcelikbicak/rolecraft](https://github.com/sametcelikbicak/rolecraft) | Claude Code, Cursor, OpenCode | CLI sem dependências para instalar agent skills de qualquer fonte. | CLI, installer workflow | Active | Medium |
 
 ## Business Workflows
 
@@ -136,8 +143,6 @@ Nesta lista, uma skill é um pacote de capacidade reutilizável para um AI agent
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Grande coleção de templates de workflow para AI agents e automação de negócios. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | Automações de IA e workflows de agentes para ferramentas de negócios. | n8n workflows, examples | Active | Medium |
-| [carta/plugins](https://github.com/carta/plugins) | Claude, Codex, Copilot, MCP | Plugins e skills públicos para workflows de equity/startups. | Plugins, MCP, skills | Active | High |
-| [tale-project/tale](https://github.com/tale-project/tale) | OpenClaw, Claude Code, Codex, Cursor | Orquestrar e delegar trabalho entre múltiplos AI agents. | Orchestrator, workflows, MCP | Active | Medium |
 
 ## Personal Productivity
 
@@ -146,9 +151,6 @@ Nesta lista, uma skill é um pacote de capacidade reutilizável para um AI agent
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | Configuração de workspace com skills, comandos e hooks. | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | Memória, skills e workflows de conhecimento nativos do repositório. | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | Meta-skill que destila conhecimento do repositório em skills reutilizáveis. | Meta-skill, project skill generation | Active | Medium |
-| [JularDepick/user-thoughts.SKILL](https://github.com/JularDepick/user-thoughts.SKILL) | Codex, Claude Code, OpenCode | Organizar inputs do usuário em repositórios persistentes de ideias do projeto. | Agent skill, memory workflow | Active | Medium |
-| [shiquda/skills-sync](https://github.com/shiquda/skills-sync) | Codex, Claude Code, Cursor | Sincronizar, versionar e publicar AI Agent Skills locais. | CLI, GitHub publishing workflow | Active | Medium |
-| [bardaxx/skillbook](https://github.com/bardaxx/skillbook) | Codex, Claude, Cursor | Playbooks portáteis para agentes de programação. | Markdown workflows, sharing model | Active | Low |
 
 ## Use With Care
 

@@ -21,6 +21,20 @@
 | Status | Active = 近期有维护；Stable = 更新较慢但仍可用；Use with care = 有价值但较敏感 |
 | Risk | Low = 多为只读或内容生成；Medium = 文件、API、账号、浏览器自动化；High = 生产环境、安全、删除、支付、凭证、批量操作 |
 
+## 评估方法
+
+Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解决真实任务、有可复用结构，并给 Agent 足够的执行说明或工具，也可以收录。
+
+| 维度 | 分值 | 审核重点 |
+|---|---:|---|
+| 任务清晰度 | 0-2 | 是否有明确真实场景、输入、输出和目标用户。 |
+| 可复用结构 | 0-2 | 是否不只是 prompt，而是包含 skill 文件、workflow、template、script、example 或 reference。 |
+| 平台与工具适配 | 0-2 | 是否明确支持 Codex、Claude、ChatGPT、Cursor、Copilot、MCP、n8n、CLI、浏览器、API 或本地应用工作流。 |
+| 验证与示例 | 0-2 | 是否有 demo、test、sample usage、CI check、schema 或逐步验证流程。 |
+| 维护与安全 | 0-2 | 是否有近期维护、清晰 license、安全默认值、确认机制和凭证/隐私说明。 |
+
+收录参考：8-10 分推荐收录，6-7 分可带说明收录，4-5 分放入谨慎使用或复审，低于 4 分移除或暂不收录。高风险工作流必须有更高分和明确安全说明。
+
 ## 目录
 
 - [Core Skill Registries](#core-skill-registries)
@@ -35,6 +49,7 @@
 - [Business Workflows](#business-workflows)
 - [Personal Productivity](#personal-productivity)
 - [Use With Care](#use-with-care)
+- [评估方法](#评估方法)
 - [Selection Criteria](#selection-criteria)
 
 ## Core Skill Registries
@@ -46,7 +61,6 @@
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | 面向专业编码 Agent 的安全验证 Skill 注册表。 | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | 通过 Claude Code skills 暴露的可搜索 AI 仓库精选列表。 | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Claude 工作流资产、Agent、MCP server、Skill、命令和 hook 的注册表。 | Registry, agents, skills, MCP, commands | Active | Medium |
-| [linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills) | Generic Agent | 自动更新的 AI Agent Skill 精选列表。 | Awesome list, ratings, automation | Active | Low |
 
 ## Coding
 
@@ -77,9 +91,6 @@
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | 将文档、GitHub 仓库和 PDF 转换为 Claude skills。 | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | 面向 Agent 的 NotebookLM 编程式工作流。 | Python API, CLI, agentic skill | Active | Medium |
-| [wuhanichina/powerlit-power-systems-writing-skills](https://github.com/wuhanichina/powerlit-power-systems-writing-skills) | Codex | 基于本地语料库的电力系统论文写作 Skill。 | Writing skills, domain corpus | Active | Low |
-| [kashmirscien3399/skills](https://github.com/kashmirscien3399/skills) | Generic Agent | arXiv 论文获取和引用跟踪的文献综述自动化。 | Research skills, fetch/extract workflows | Active | Medium |
-| [londey/claude-skill-verilog](https://github.com/londey/claude-skill-verilog) | Claude Code | 使用领域 Skill 处理 Verilog。 | Skill instructions, hardware domain workflow | Active | Low |
 
 ## Design and Frontend
 
@@ -87,8 +98,6 @@
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | 根据自然语言生成 ComfyUI workflow JSON。 | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | 让 Agent 端到端驱动本地 ComfyUI。 | Skill, prompt recipes, templates, automation | Active | Medium |
-| [martgueritainaccurate875/skills](https://github.com/martgueritainaccurate875/skills) | Cursor, Gemini CLI, Generic Agent | 前端、全栈、移动端和 shader 开发 Skill。 | Skill definitions, development workflows | Active | Medium |
-| [AlexPEClub/ai-coding-starter-kit](https://github.com/AlexPEClub/ai-coding-starter-kit) | Generic Agent | 带专用 AI 开发 Agent 的 Next.js starter。 | Template, agents, development workflow | Active | Medium |
 
 ## Browser and Web
 
@@ -127,8 +136,6 @@
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | MCP server 和 tool-use 能力精选列表。 | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | 远程 MCP server 发现。 | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent 工具、server、client 和集成。 | Awesome list, protocols, tooling | Active | Medium |
-| [Francis-Zxp/AI-SkillHub](https://github.com/Francis-Zxp/AI-SkillHub) | Codex, Claude Code, Antigravity | 用于导入和部署 Skill 的桌面 Skill 管理器。 | Desktop app, skill import/sync | Active | Medium |
-| [sametcelikbicak/rolecraft](https://github.com/sametcelikbicak/rolecraft) | Claude Code, Cursor, OpenCode | 从任意来源安装 Agent Skill 的零依赖 CLI。 | CLI, installer workflow | Active | Medium |
 
 ## Business Workflows
 
@@ -136,8 +143,6 @@
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | 面向 AI Agent 和业务自动化的大型工作流模板集合。 | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | 面向业务工具的 AI 自动化和 Agent 工作流。 | n8n workflows, examples | Active | Medium |
-| [carta/plugins](https://github.com/carta/plugins) | Claude, Codex, Copilot, MCP | 面向股权和创业工作流的公开插件与 Skill。 | Plugins, MCP, skills | Active | High |
-| [tale-project/tale](https://github.com/tale-project/tale) | OpenClaw, Claude Code, Codex, Cursor | 在多个 AI Agent 之间编排和委派工作。 | Orchestrator, workflows, MCP | Active | Medium |
 
 ## Personal Productivity
 
@@ -146,9 +151,6 @@
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | 包含 Skill、命令和 hook 的工作区设置。 | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | 仓库原生的记忆、Skill 和知识工作流。 | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | 将仓库知识提炼为可复用 Skill 的元 Skill。 | Meta-skill, project skill generation | Active | Medium |
-| [JularDepick/user-thoughts.SKILL](https://github.com/JularDepick/user-thoughts.SKILL) | Codex, Claude Code, OpenCode | 将用户输入整理为持久的项目级想法仓库。 | Agent skill, memory workflow | Active | Medium |
-| [shiquda/skills-sync](https://github.com/shiquda/skills-sync) | Codex, Claude Code, Cursor | 同步、版本化并发布本地 AI Agent Skills。 | CLI, GitHub publishing workflow | Active | Medium |
-| [bardaxx/skillbook](https://github.com/bardaxx/skillbook) | Codex, Claude, Cursor | 面向编码 Agent 的可移植 playbook。 | Markdown workflows, sharing model | Active | Low |
 
 ## Use With Care
 

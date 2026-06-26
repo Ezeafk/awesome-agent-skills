@@ -21,6 +21,20 @@ In dieser Liste ist ein Skill ein wiederverwendbares Fähigkeitspaket für einen
 | Status | Active = kürzlich gepflegt; Stable = weiterhin nützlich bei langsameren Updates; Use with care = wertvoll, aber sensibel |
 | Risk | Low = meist read-only oder Content-Erzeugung; Medium = Dateien, APIs, Accounts, Browser-Automation; High = Produktion, Security, Löschung, Zahlungen, Credentials, Massenaktionen |
 
+## Bewertungsmethode
+
+Skills werden vor der Aufnahme bewertet. Stars sind nur ein schwaches Signal; ein Nischen-Skill kann aufgenommen werden, wenn er eine echte Aufgabe löst, wiederverwendbar strukturiert ist und Agents genug Anweisungen oder Tools für sichere Ausführung gibt.
+
+| Bereich | Punkte | Prüfung |
+|---|---:|---|
+| Task clarity | 0-2 | Klarer realer Use Case, Inputs, Outputs und Zielnutzer. |
+| Wiederverwendbare Struktur | 0-2 | Mehr als ein Prompt: skill files, workflows, templates, scripts, examples oder references. |
+| Plattform- und Tool-Fit | 0-2 | Klare Unterstützung für Codex, Claude, ChatGPT, Cursor, Copilot, MCP, n8n, CLI, browser, API oder local app workflows. |
+| Validierung und Beispiele | 0-2 | Demo, Tests, sample usage, CI checks, schema oder step-by-step verification. |
+| Wartung und Sicherheit | 0-2 | Aktuelle Aktivität, klare license, sichere Defaults, confirmation rules und credential/privacy guidance. |
+
+Aufnahmeleitlinie: 8-10 = empfohlen, 6-7 = akzeptabel mit Hinweisen, 4-5 = use with care oder erneut prüfen, unter 4 = entfernen oder nicht aufnehmen. High-risk Workflows brauchen einen stärkeren Score und klare Sicherheitshinweise.
+
 ## Inhalt
 
 - [Core Skill Registries](#core-skill-registries)
@@ -35,6 +49,7 @@ In dieser Liste ist ein Skill ein wiederverwendbares Fähigkeitspaket für einen
 - [Business Workflows](#business-workflows)
 - [Personal Productivity](#personal-productivity)
 - [Use With Care](#use-with-care)
+- [Bewertungsmethode](#bewertungsmethode)
 - [Selection Criteria](#selection-criteria)
 
 ## Core Skill Registries
@@ -46,7 +61,6 @@ In dieser Liste ist ein Skill ein wiederverwendbares Fähigkeitspaket für einen
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | Sichere validierte Skill Registry für professionelle Coding Agents. | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Durchsuchbare kuratierte KI-Repository-Liste, verfügbar über Claude Code skills. | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Registry für Claude Workflow Assets, Agents, MCP servers, Skills, Commands und Hooks. | Registry, agents, skills, MCP, commands | Active | Medium |
-| [linny006/awesome-agent-skills](https://github.com/linny006/awesome-agent-skills) | Generic Agent | Automatisch aktualisierte Awesome List für AI Agent Skills. | Awesome list, ratings, automation | Active | Low |
 
 ## Coding
 
@@ -77,9 +91,6 @@ In dieser Liste ist ein Skill ein wiederverwendbares Fähigkeitspaket für einen
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | Docs, GitHub Repos und PDFs in Claude skills umwandeln. | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | Programmatic NotebookLM workflows für Agents. | Python API, CLI, agentic skill | Active | Medium |
-| [wuhanichina/powerlit-power-systems-writing-skills](https://github.com/wuhanichina/powerlit-power-systems-writing-skills) | Codex | Power-system Paper Writing Skills aus einem lokalen Corpus. | Writing skills, domain corpus | Active | Low |
-| [kashmirscien3399/skills](https://github.com/kashmirscien3399/skills) | Generic Agent | Literature Review Automation für arXiv und Citation Tracking. | Research skills, fetch/extract workflows | Active | Medium |
-| [londey/claude-skill-verilog](https://github.com/londey/claude-skill-verilog) | Claude Code | Mit Verilog über einen Domain Skill arbeiten. | Skill instructions, hardware domain workflow | Active | Low |
 
 ## Design and Frontend
 
@@ -87,8 +98,6 @@ In dieser Liste ist ein Skill ein wiederverwendbares Fähigkeitspaket für einen
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | ComfyUI workflow JSON aus natürlicher Sprache generieren. | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | Lokales ComfyUI end-to-end von einem Agent steuern. | Skill, prompt recipes, templates, automation | Active | Medium |
-| [martgueritainaccurate875/skills](https://github.com/martgueritainaccurate875/skills) | Cursor, Gemini CLI, Generic Agent | Frontend-, Full-stack-, Mobile- und Shader-Development Skills. | Skill definitions, development workflows | Active | Medium |
-| [AlexPEClub/ai-coding-starter-kit](https://github.com/AlexPEClub/ai-coding-starter-kit) | Generic Agent | Next.js starter mit spezialisierten AI Development Agents. | Template, agents, development workflow | Active | Medium |
 
 ## Browser and Web
 
@@ -127,8 +136,6 @@ In dieser Liste ist ein Skill ein wiederverwendbares Fähigkeitspaket für einen
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Kuratierte Liste von MCP servers und tool-use capabilities. | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Entdeckung von Remote MCP servers. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent Tools, Servers, Clients und Integrationen. | Awesome list, protocols, tooling | Active | Medium |
-| [Francis-Zxp/AI-SkillHub](https://github.com/Francis-Zxp/AI-SkillHub) | Codex, Claude Code, Antigravity | Desktop Skill Manager zum Importieren und Deployen von Skills. | Desktop app, skill import/sync | Active | Medium |
-| [sametcelikbicak/rolecraft](https://github.com/sametcelikbicak/rolecraft) | Claude Code, Cursor, OpenCode | Zero-dependency CLI zur Installation von Agent Skills aus beliebigen Quellen. | CLI, installer workflow | Active | Medium |
 
 ## Business Workflows
 
@@ -136,8 +143,6 @@ In dieser Liste ist ein Skill ein wiederverwendbares Fähigkeitspaket für einen
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Große Workflow Template Collection für AI Agents und Business Automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI Automations und Agent Workflows für Business Tools. | n8n workflows, examples | Active | Medium |
-| [carta/plugins](https://github.com/carta/plugins) | Claude, Codex, Copilot, MCP | Public Plugins und Skills für Equity/Startup Workflows. | Plugins, MCP, skills | Active | High |
-| [tale-project/tale](https://github.com/tale-project/tale) | OpenClaw, Claude Code, Codex, Cursor | Arbeit über mehrere AI Agents orchestrieren und delegieren. | Orchestrator, workflows, MCP | Active | Medium |
 
 ## Personal Productivity
 
@@ -146,9 +151,6 @@ In dieser Liste ist ein Skill ein wiederverwendbares Fähigkeitspaket für einen
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | Workspace setup mit Skills, Commands und Hooks. | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | Repository-native Memory, Skills und Knowledge Workflows. | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | Meta-skill, der Repo-Wissen in wiederverwendbare Skills destilliert. | Meta-skill, project skill generation | Active | Medium |
-| [JularDepick/user-thoughts.SKILL](https://github.com/JularDepick/user-thoughts.SKILL) | Codex, Claude Code, OpenCode | User Input in persistente projektgebundene Idea Repositories organisieren. | Agent skill, memory workflow | Active | Medium |
-| [shiquda/skills-sync](https://github.com/shiquda/skills-sync) | Codex, Claude Code, Cursor | Lokale AI Agent Skills synchronisieren, versionieren und veröffentlichen. | CLI, GitHub publishing workflow | Active | Medium |
-| [bardaxx/skillbook](https://github.com/bardaxx/skillbook) | Codex, Claude, Cursor | Portable Playbooks für Coding Agents. | Markdown workflows, sharing model | Active | Low |
 
 ## Use With Care
 
