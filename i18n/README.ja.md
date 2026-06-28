@@ -43,6 +43,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 - [Documents](#documents)
 - [Design and Frontend](#design-and-frontend)
 - [Browser and Web](#browser-and-web)
+- [Security Skills](#security-skills)
 - [DevOps and Cloud](#devops-and-cloud)
 - [Research](#research)
 - [MCP and Tool Integration](#mcp-and-tool-integration)
@@ -108,6 +109,16 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | Playwright による browser と API automation。 | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | Browserbase と Stagehand で agents が cloud browsers を制御できるようにする。 | MCP server, browser control | Active | Medium |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | research agents 向けの OSINT tool discovery。 | Curated MCP server list | Active | High |
+
+## Security Skills
+
+| Skill | Platform | 用途 | Includes | Status | Risk |
+|---|---|---|---|---|---|
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Claude, Codex, Generic Agent | インストール前に AI agent skills の悪意あるパターン、不安全な指示、セキュリティリスクをスキャン。 | Security scanner, CLI, reports, examples | Active | High |
+| [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | Claude, Generic Agent | チーム導入前に Agent Skills のサプライチェーンリスクと prompt レベルのリスクを評価。 | Security scanner, rules, reports | Active | High |
+| [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | AI agents、MCP servers、agent skills の脆弱性や危険な tool 挙動をスキャン。 | Security scanner, CLI, rules | Active | High |
+| [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Trail of Bits によるセキュリティ調査、脆弱性検出、監査ワークフロー。 | Skills, audit workflows, examples | Active | High |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | agent、skill、MCP、jailbreak、LLM セキュリティスキャンで AI インフラを red-team 評価。 | Red-team platform, scanners, reports | Active | High |
 
 ## DevOps and Cloud
 

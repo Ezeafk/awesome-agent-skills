@@ -43,6 +43,7 @@ Aufnahmeleitlinie: 8-10 = empfohlen, 6-7 = akzeptabel mit Hinweisen, 4-5 = use w
 - [Documents](#documents)
 - [Design and Frontend](#design-and-frontend)
 - [Browser and Web](#browser-and-web)
+- [Security Skills](#security-skills)
 - [DevOps and Cloud](#devops-and-cloud)
 - [Research](#research)
 - [MCP and Tool Integration](#mcp-and-tool-integration)
@@ -108,6 +109,16 @@ Aufnahmeleitlinie: 8-10 = empfohlen, 6-7 = akzeptabel mit Hinweisen, 4-5 = use w
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | Browser- und API-Automation über Playwright. | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | Agents Cloud Browsers mit Browserbase und Stagehand steuern lassen. | MCP server, browser control | Active | Medium |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | OSINT Tool Discovery für Research Agents. | Curated MCP server list | Active | High |
+
+## Security Skills
+
+| Skill | Platform | Use Case | Includes | Status | Risk |
+|---|---|---|---|---|---|
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Claude, Codex, Generic Agent | AI agent skills vor der Installation auf bösartige Muster, unsichere Anweisungen und Sicherheitsrisiken scannen. | Security scanner, CLI, reports, examples | Active | High |
+| [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | Claude, Generic Agent | Agent Skills vor der Einführung im Team auf Supply-Chain- und Prompt-Level-Risiken prüfen. | Security scanner, rules, reports | Active | High |
+| [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | AI agents, MCP servers und agent skills auf Schwachstellen und riskantes Tool-Verhalten scannen. | Security scanner, CLI, rules | Active | High |
+| [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Security-Research-, Schwachstellenerkennungs- und Audit-Workflows von Trail of Bits. | Skills, audit workflows, examples | Active | High |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | AI-Infrastruktur mit Agent-, Skill-, MCP-, Jailbreak- und LLM-Security-Scans per Red Team prüfen. | Red-team platform, scanners, reports | Active | High |
 
 ## DevOps and Cloud
 

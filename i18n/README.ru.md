@@ -43,6 +43,7 @@ Skills оцениваются перед включением. Stars — тол�
 - [Documents](#documents)
 - [Design and Frontend](#design-and-frontend)
 - [Browser and Web](#browser-and-web)
+- [Security Skills](#security-skills)
 - [DevOps and Cloud](#devops-and-cloud)
 - [Research](#research)
 - [MCP and Tool Integration](#mcp-and-tool-integration)
@@ -108,6 +109,16 @@ Skills оцениваются перед включением. Stars — тол�
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | Browser и API automation через Playwright. | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | Позволяет agents управлять cloud browsers через Browserbase и Stagehand. | MCP server, browser control | Active | Medium |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | OSINT tool discovery для research agents. | Curated MCP server list | Active | High |
+
+## Security Skills
+
+| Skill | Platform | Сценарий | Includes | Status | Risk |
+|---|---|---|---|---|---|
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Claude, Codex, Generic Agent | Сканировать AI agent skills перед установкой на вредоносные паттерны, небезопасные инструкции и риски безопасности. | Security scanner, CLI, reports, examples | Active | High |
+| [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | Claude, Generic Agent | Проверять Agent Skills перед внедрением в команде на риски supply chain и prompt-уровня. | Security scanner, rules, reports | Active | High |
+| [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | Сканировать AI agents, MCP servers и agent skills на уязвимости и рискованное поведение tools. | Security scanner, CLI, rules | Active | High |
+| [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Workflows от Trail of Bits для security research, поиска уязвимостей и аудита. | Skills, audit workflows, examples | Active | High |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | Проводить red-team проверку AI-инфраструктуры через сканы agent, skill, MCP, jailbreak и LLM security. | Red-team platform, scanners, reports | Active | High |
 
 ## DevOps and Cloud
 

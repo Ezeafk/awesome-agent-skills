@@ -43,6 +43,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 - [Documents](#documents)
 - [Design and Frontend](#design-and-frontend)
 - [Browser and Web](#browser-and-web)
+- [Security Skills](#security-skills)
 - [DevOps and Cloud](#devops-and-cloud)
 - [Research](#research)
 - [MCP and Tool Integration](#mcp-and-tool-integration)
@@ -108,6 +109,16 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | 通过 Playwright 进行浏览器和 API 自动化。 | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | 让 Agent 通过 Browserbase 和 Stagehand 控制云浏览器。 | MCP server, browser control | Active | Medium |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | 面向研究 Agent 的 OSINT 工具发现。 | Curated MCP server list | Active | High |
+
+## Security Skills
+
+| Skill | Platform | 用途 | Includes | Status | Risk |
+|---|---|---|---|---|---|
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Claude, Codex, Generic Agent | 在安装前扫描 AI Agent skills 中的恶意模式、不安全指令和安全风险。 | Security scanner, CLI, reports, examples | Active | High |
+| [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | Claude, Generic Agent | 在团队采用前审查 Agent Skills 的供应链和 prompt 层风险。 | Security scanner, rules, reports | Active | High |
+| [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | 扫描 AI agents、MCP servers 和 agent skills 中的漏洞及高风险工具行为。 | Security scanner, CLI, rules | Active | High |
+| [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Trail of Bits 提供的安全研究、漏洞检测和审计工作流。 | Skills, audit workflows, examples | Active | High |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | 对 AI 基础设施进行红队评估，覆盖 agent、skill、MCP、jailbreak 和 LLM 安全扫描。 | Red-team platform, scanners, reports | Active | High |
 
 ## DevOps and Cloud
 
