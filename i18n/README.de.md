@@ -6,7 +6,7 @@ Sprachen: [English](../README.md) | [简体中文](README.zh-CN.md) | [Portuguê
 
 Diese Liste konzentriert sich auf wiederverwendbare Fähigkeiten, mit denen AI Agents echte Aufgaben erledigen können. Sie ist kein prompt dump. Ein gelistetes Projekt sollte einen klaren Use Case, wiederverwendbare Struktur, Installations- oder Nutzungsanweisungen und genügend Kontext zu Inputs, Outputs und Sicherheitsgrenzen haben.
 
-Zuletzt geprüft: 2026-06-26
+Zuletzt geprüft: 2026-06-28
 
 ## Was Als Skill Zählt
 
@@ -61,6 +61,7 @@ Aufnahmeleitlinie: 8-10 = empfohlen, 6-7 = akzeptabel mit Hinweisen, 4-5 = use w
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | Sichere validierte Skill Registry für professionelle Coding Agents. | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Durchsuchbare kuratierte KI-Repository-Liste, verfügbar über Claude Code skills. | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Registry für Claude Workflow Assets, Agents, MCP servers, Skills, Commands und Hooks. | Registry, agents, skills, MCP, commands | Active | Medium |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | Installierbare Multi-Rollen-KI-Agentur mit Spezialisten für Coding, Sicherheit, Content, Produkt und Business-Workflows. | Agent library, install scripts, converters, examples | Active | Medium |
 
 ## Coding
 

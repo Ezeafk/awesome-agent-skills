@@ -6,7 +6,7 @@
 
 本列表聚焦能帮助 AI Agent 完成真实任务的可复用能力包。它不是 prompt dump。被收录项目应有明确场景、可复用结构、安装或使用说明，并能解释输入、输出和安全边界。
 
-最后审核：2026-06-26
+最后审核：2026-06-28
 
 ## 什么算 Skill
 
@@ -61,6 +61,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | 面向专业编码 Agent 的安全验证 Skill 注册表。 | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | 通过 Claude Code skills 暴露的可搜索 AI 仓库精选列表。 | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Claude 工作流资产、Agent、MCP server、Skill、命令和 hook 的注册表。 | Registry, agents, skills, MCP, commands | Active | Medium |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | 可安装的多角色 AI agency 专家库，覆盖编码、安全、内容、产品和业务工作流。 | Agent library, install scripts, converters, examples | Active | Medium |
 
 ## Coding
 

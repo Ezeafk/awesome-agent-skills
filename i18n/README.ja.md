@@ -6,7 +6,7 @@
 
 このリストは、AI agents が実際のタスクを完了するための再利用可能な能力に焦点を当てています。prompt dump ではありません。掲載プロジェクトには明確なユースケース、再利用可能な構造、インストールまたは利用手順、入力・出力・安全境界を説明できる情報が必要です。
 
-最終確認日: 2026-06-26
+最終確認日: 2026-06-28
 
 ## Skill の定義
 
@@ -61,6 +61,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | プロ向け coding agents のための安全に検証された skill registry。 | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Claude Code skills から利用できる検索可能な AI リポジトリ厳選リスト。 | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Claude workflow assets、agents、MCP servers、skills、commands、hooks の registry。 | Registry, agents, skills, MCP, commands | Active | Medium |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | コーディング、セキュリティ、コンテンツ、プロダクト、業務ワークフロー向けのインストール可能な多役割 AI エージェンシーライブラリ。 | Agent library, install scripts, converters, examples | Active | Medium |
 
 ## Coding
 
