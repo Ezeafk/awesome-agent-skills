@@ -47,6 +47,7 @@ Skills оцениваются перед включением. Stars — тол�
 - [DevOps and Cloud](#devops-and-cloud)
 - [Research](#research)
 - [MCP and Tool Integration](#mcp-and-tool-integration)
+- [Finance Skills](#finance-skills)
 - [Business Workflows](#business-workflows)
 - [Personal Productivity](#personal-productivity)
 - [Use With Care](#use-with-care)
@@ -148,6 +149,16 @@ Skills оцениваются перед включением. Stars — тол�
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Curated list MCP servers и tool-use capabilities. | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Обнаружение remote MCP servers. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent tools, servers, clients и integrations. | Awesome list, protocols, tooling | Active | Medium |
+
+## Finance Skills
+
+| Skill | Platform | Сценарий | Includes | Status | Risk |
+|---|---|---|---|---|---|
+| [Bookkeeper & Controller](https://github.com/msitarzewski/agency-agents/blob/main/finance/finance-bookkeeper-controller.md) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | Ежедневный учет, главная книга, месячное закрытие, сверки, внутренний контроль, подготовка к аудиту и соответствие GAAP. | Agent skill, finance workflow, controls checklist | Active | High |
+| [Financial Analyst](https://github.com/msitarzewski/agency-agents/blob/main/finance/finance-financial-analyst.md) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | Финансовое моделирование, прогнозирование, сценарный анализ, оценка, анализ бюджет-факт и поддержка операционных решений. | Agent skill, modeling workflow, analysis templates | Active | High |
+| [FP&A Analyst](https://github.com/msitarzewski/agency-agents/blob/main/finance/finance-fpa-analyst.md) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | Годовой бюджет, скользящие прогнозы, операционные планы, бюджеты подразделений, KPI и ежемесячные бизнес-обзоры. | Agent skill, planning workflow, KPI review | Active | High |
+| [Investment Researcher](https://github.com/msitarzewski/agency-agents/blob/main/finance/finance-investment-researcher.md) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | Инвестиционное исследование, due diligence, оценка активов, анализ портфеля, bull/bear сценарии и инвестиционные меморандумы. | Agent skill, research workflow, valuation templates | Active | High |
+| [Tax Strategist](https://github.com/msitarzewski/agency-agents/blob/main/finance/finance-tax-strategist.md) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | Налоговое планирование, compliance в разных юрисдикциях, трансфертное ценообразование, структура юрлиц и налоговые меморандумы. | Agent skill, tax workflow, memo templates | Active | High |
 
 ## Business Workflows
 
