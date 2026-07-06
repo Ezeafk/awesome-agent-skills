@@ -149,6 +149,7 @@ Skills оцениваются перед включением. Stars — тол�
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Curated list MCP servers и tool-use capabilities. | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Обнаружение remote MCP servers. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent tools, servers, clients и integrations. | Awesome list, protocols, tooling | Active | Medium |
+| [zenlee123/routerbase-agent-skills](https://github.com/zenlee123/routerbase-agent-skills) | Codex, Claude, Generic Agent | Использует [routerbase](https://routerbase.com/) как OpenAI-compatible gateway для model routing и media generation requests. | Agent skills, API workflow, examples | Active | Medium |
 
 ## Finance Skills
 

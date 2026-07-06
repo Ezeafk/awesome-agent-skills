@@ -149,6 +149,7 @@ Guia de inclusão: 8-10 = recomendado, 6-7 = aceitável com ressalvas, 4-5 = use
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Lista curada de MCP servers e capacidades de tool-use. | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Descoberta de MCP servers remotos. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Ferramentas, servers, clients e integrações Agent2Agent. | Awesome list, protocols, tooling | Active | Medium |
+| [zenlee123/routerbase-agent-skills](https://github.com/zenlee123/routerbase-agent-skills) | Codex, Claude, Generic Agent | Usa [routerbase](https://routerbase.com/) como gateway compatível com OpenAI para roteamento de modelos e pedidos de geração de mídia. | Agent skills, API workflow, examples | Active | Medium |
 
 ## Finance Skills
 

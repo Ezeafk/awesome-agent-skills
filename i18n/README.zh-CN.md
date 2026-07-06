@@ -149,6 +149,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | MCP server 和 tool-use 能力精选列表。 | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | 远程 MCP server 发现。 | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent 工具、server、client 和集成。 | Awesome list, protocols, tooling | Active | Medium |
+| [zenlee123/routerbase-agent-skills](https://github.com/zenlee123/routerbase-agent-skills) | Codex, Claude, Generic Agent | 通过 [routerbase](https://routerbase.com/) 作为 OpenAI 兼容网关来处理模型路由和媒体生成请求。 | Agent skills, API workflow, examples | Active | Medium |
 
 ## Finance Skills
 
