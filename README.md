@@ -104,6 +104,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | Generate ComfyUI workflow JSON from natural language. | Templates, node definitions, model workflows | Active | Medium |
+| [runapi-ai/cli-skill](https://github.com/runapi-ai/cli-skill) | Claude Code, Codex, Cursor | Run AI image, video, music/audio, and model API jobs through the RunAPI CLI. | Skill, CLI workflow, API docs | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | Drive local ComfyUI end to end from an agent. | Skill, prompt recipes, templates, automation | Active | Medium |
 
 ## Browser and Web
