@@ -6,7 +6,7 @@
 
 本列表聚焦能帮助 AI Agent 完成真实任务的可复用能力包。它不是 prompt dump。被收录项目应有明确场景、可复用结构、安装或使用说明，并能解释输入、输出和安全边界。
 
-最后审核：2026-06-28
+最后审核：2026-07-07
 
 ## 什么算 Skill
 
@@ -59,6 +59,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | Skill | Platform | 用途 | Includes | Status | Risk |
 |---|---|---|---|---|---|
 | [anthropics/skills](https://github.com/anthropics/skills) | Claude, Generic Agent | Agent Skills 的公开仓库。 | Skills, examples, references | Active | Low |
+| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Claude Code, MCP, Generic Agent | Anthropic 官方维护的 Claude Code plugin 目录。 | Plugins, skills, commands, agents, MCP configs | Active | Medium |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copilot, Generic Agent | 社区贡献的指令、Agent、Skill 和配置。 | Instructions, agents, skills, configs | Active | Low |
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | 面向专业编码 Agent 的安全验证 Skill 注册表。 | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | 通过 Claude Code skills 暴露的可搜索 AI 仓库精选列表。 | Awesome list, search workflow, skills | Active | Low |
@@ -77,6 +78,9 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [vosslab/vosslab-skills](https://github.com/vosslab/vosslab-skills) | Claude, Codex | 重构、代码审查、仓库维护和教育内容工作流。 | Reusable skills, workflows | Active | Medium |
 | [avalonreset/legends-github](https://github.com/avalonreset/legends-github) | Claude Code, Codex, Gemini CLI | GitHub 仓库优化和社区健康工作流。 | Skills, audit workflow, metadata checks | Active | Medium |
 | [Jakevin/fastcontext-agent-tools](https://github.com/Jakevin/fastcontext-agent-tools) | Codex, MCP | 使用 FastContext 进行仓库探索。 | MCP server, Codex skill | Active | Medium |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | 面向 AI 编码 Agent 的生产级工程 Skill 和生命周期命令。 | Skills, commands, hooks, evals, references | Active | Medium |
+| [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | 将 Agentic 软件开发方法论封装为可组合 Skill。 | Skills framework, plugins, hooks, tests | Active | Medium |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | 将代码库、schema、文档和媒体转换为可查询知识图谱，供编码 Agent 使用。 | Knowledge graph, CLI, skills, tests | Active | Medium |
 
 ## Data Analysis
 
@@ -174,6 +178,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | 包含 Skill、命令和 hook 的工作区设置。 | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | 仓库原生的记忆、Skill 和知识工作流。 | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | 将仓库知识提炼为可复用 Skill 的元 Skill。 | Meta-skill, project skill generation | Active | Medium |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | Claude Code, Codex, Cursor, MCP | 通过工具输出沙箱、会话记忆、MCP 和 hooks 优化 Agent 上下文窗口。 | MCP server, hooks, skills, memory, plugins | Active | Medium |
 
 ## Use With Care
 

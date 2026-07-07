@@ -6,7 +6,7 @@
 
 Этот список посвящен переиспользуемым возможностям, которые помогают AI agents выполнять реальные задачи. Это не prompt dump. У проекта должен быть понятный use case, переиспользуемая структура, инструкции по установке или использованию и достаточно контекста про inputs, outputs и safety boundaries.
 
-Последняя проверка: 2026-06-28
+Последняя проверка: 2026-07-07
 
 ## Что Считается Skill
 
@@ -59,6 +59,7 @@ Skills оцениваются перед включением. Stars — тол�
 | Skill | Platform | Сценарий | Includes | Status | Risk |
 |---|---|---|---|---|---|
 | [anthropics/skills](https://github.com/anthropics/skills) | Claude, Generic Agent | Публичный репозиторий для Agent Skills. | Skills, examples, references | Active | Low |
+| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Claude Code, MCP, Generic Agent | Официальный каталог Claude Code plugins, поддерживаемый Anthropic. | Plugins, skills, commands, agents, MCP configs | Active | Medium |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copilot, Generic Agent | Community instructions, agents, skills и configurations. | Instructions, agents, skills, configs | Active | Low |
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | Безопасный проверенный skill registry для профессиональных coding agents. | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Поисковый curated список AI-репозиториев, доступный через Claude Code skills. | Awesome list, search workflow, skills | Active | Low |
@@ -77,6 +78,9 @@ Skills оцениваются перед включением. Stars — тол�
 | [vosslab/vosslab-skills](https://github.com/vosslab/vosslab-skills) | Claude, Codex | Workflows для refactoring, code review, repo maintenance и educational content. | Reusable skills, workflows | Active | Medium |
 | [avalonreset/legends-github](https://github.com/avalonreset/legends-github) | Claude Code, Codex, Gemini CLI | Workflows для GitHub repository optimization и community health. | Skills, audit workflow, metadata checks | Active | Medium |
 | [Jakevin/fastcontext-agent-tools](https://github.com/Jakevin/fastcontext-agent-tools) | Codex, MCP | Исследование репозиториев с FastContext. | MCP server, Codex skill | Active | Medium |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | Production-grade engineering skills и lifecycle commands для AI coding agents. | Skills, commands, hooks, evals, references | Active | Medium |
+| [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Методология agentic software development, упакованная как комбинируемые skills. | Skills framework, plugins, hooks, tests | Active | Medium |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Превращает codebases, schemas, docs и media в queryable knowledge graph для coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
 
 ## Data Analysis
 
@@ -174,6 +178,7 @@ Skills оцениваются перед включением. Stars — тол�
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | Workspace setup со skills, commands и hooks. | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | Repository-native memory, skills и knowledge workflows. | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | Meta-skill, который превращает знания repo в reusable skills. | Meta-skill, project skill generation | Active | Medium |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | Claude Code, Codex, Cursor, MCP | Оптимизирует context windows агентов через sandboxing tool output, session memory, MCP и hooks. | MCP server, hooks, skills, memory, plugins | Active | Medium |
 
 ## Use With Care
 

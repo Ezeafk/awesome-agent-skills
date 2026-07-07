@@ -6,7 +6,7 @@ Languages: [English](README.md) | [简体中文](i18n/README.zh-CN.md) | [Portug
 
 This list focuses on reusable capabilities that help AI agents complete real tasks. It is not a prompt dump. A listed project should have a clear use case, reusable structure, installation or usage instructions, and enough context to explain inputs, outputs, and safety boundaries.
 
-Last reviewed: 2026-06-28
+Last reviewed: 2026-07-07
 
 ## What Counts As A Skill
 
@@ -59,6 +59,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
 | [anthropics/skills](https://github.com/anthropics/skills) | Claude, Generic Agent | Public repository for Agent Skills. | Skills, examples, references | Active | Low |
+| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Claude Code, MCP, Generic Agent | Official Anthropic-managed directory of Claude Code plugins. | Plugins, skills, commands, agents, MCP configs | Active | Medium |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copilot, Generic Agent | Community instructions, agents, skills, and configurations. | Instructions, agents, skills, configs | Active | Low |
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | Secure validated skill registry for professional coding agents. | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Searchable curated AI repository list exposed through Claude Code skills. | Awesome list, search workflow, skills | Active | Low |
@@ -77,6 +78,9 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [vosslab/vosslab-skills](https://github.com/vosslab/vosslab-skills) | Claude, Codex | Refactoring, code review, repo maintenance, and education content workflows. | Reusable skills, workflows | Active | Medium |
 | [avalonreset/legends-github](https://github.com/avalonreset/legends-github) | Claude Code, Codex, Gemini CLI | GitHub repository optimization and community health workflows. | Skills, audit workflow, metadata checks | Active | Medium |
 | [Jakevin/fastcontext-agent-tools](https://github.com/Jakevin/fastcontext-agent-tools) | Codex, MCP | Repository exploration with FastContext. | MCP server, Codex skill | Active | Medium |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | Production-grade engineering skills and lifecycle commands for AI coding agents. | Skills, commands, hooks, evals, references | Active | Medium |
+| [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Agentic software development methodology packaged as composable skills. | Skills framework, plugins, hooks, tests | Active | Medium |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Turn codebases, schemas, docs, and media into a queryable knowledge graph for coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
 
 ## Data Analysis
 
@@ -174,6 +178,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | Workspace setup with skills, commands, and hooks. | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | Repository-native memory, skills, and knowledge workflows. | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | Meta-skill that distills repo knowledge into reusable skills. | Meta-skill, project skill generation | Active | Medium |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | Claude Code, Codex, Cursor, MCP | Optimize agent context windows with tool-output sandboxing, session memory, MCP, and hooks. | MCP server, hooks, skills, memory, plugins | Active | Medium |
 
 ## Use With Care
 

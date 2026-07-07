@@ -6,7 +6,7 @@
 
 このリストは、AI agents が実際のタスクを完了するための再利用可能な能力に焦点を当てています。prompt dump ではありません。掲載プロジェクトには明確なユースケース、再利用可能な構造、インストールまたは利用手順、入力・出力・安全境界を説明できる情報が必要です。
 
-最終確認日: 2026-06-28
+最終確認日: 2026-07-07
 
 ## Skill の定義
 
@@ -59,6 +59,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | Skill | Platform | 用途 | Includes | Status | Risk |
 |---|---|---|---|---|---|
 | [anthropics/skills](https://github.com/anthropics/skills) | Claude, Generic Agent | Agent Skills の公開リポジトリ。 | Skills, examples, references | Active | Low |
+| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Claude Code, MCP, Generic Agent | Anthropic が公式に管理する Claude Code plugin ディレクトリ。 | Plugins, skills, commands, agents, MCP configs | Active | Medium |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copilot, Generic Agent | コミュニティによる instructions、agents、skills、configurations。 | Instructions, agents, skills, configs | Active | Low |
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | プロ向け coding agents のための安全に検証された skill registry。 | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Claude Code skills から利用できる検索可能な AI リポジトリ厳選リスト。 | Awesome list, search workflow, skills | Active | Low |
@@ -77,6 +78,9 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [vosslab/vosslab-skills](https://github.com/vosslab/vosslab-skills) | Claude, Codex | リファクタリング、code review、repo maintenance、教育コンテンツ制作の workflows。 | Reusable skills, workflows | Active | Medium |
 | [avalonreset/legends-github](https://github.com/avalonreset/legends-github) | Claude Code, Codex, Gemini CLI | GitHub repository optimization と community health の workflows。 | Skills, audit workflow, metadata checks | Active | Medium |
 | [Jakevin/fastcontext-agent-tools](https://github.com/Jakevin/fastcontext-agent-tools) | Codex, MCP | FastContext による repository exploration。 | MCP server, Codex skill | Active | Medium |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | AI coding agent 向けの本番品質エンジニアリング Skill とライフサイクルコマンド。 | Skills, commands, hooks, evals, references | Active | Medium |
+| [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Agentic software development 方法論を組み合わせ可能な Skill として提供。 | Skills framework, plugins, hooks, tests | Active | Medium |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | codebase、schema、docs、media を coding agent 用の検索可能な knowledge graph に変換。 | Knowledge graph, CLI, skills, tests | Active | Medium |
 
 ## Data Analysis
 
@@ -174,6 +178,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | skills、commands、hooks を含む workspace setup。 | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | repository-native memory、skills、knowledge workflows。 | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | repo knowledge を reusable skills に蒸留する meta-skill。 | Meta-skill, project skill generation | Active | Medium |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | Claude Code, Codex, Cursor, MCP | tool 出力 sandbox、session memory、MCP、hooks で agent の context window を最適化。 | MCP server, hooks, skills, memory, plugins | Active | Medium |
 
 ## Use With Care
 
