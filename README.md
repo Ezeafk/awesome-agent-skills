@@ -170,6 +170,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Large workflow template collection for AI agents and business automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI automations and agent workflows for business tools. | n8n workflows, examples | Active | Medium |
+| [sergebulaev/instagram-skills](https://github.com/sergebulaev/instagram-skills) | Claude Code, Codex, Generic Agent | Instagram content workflows for captions, carousels, hashtag strategy, hook extraction, humanizing AI drafts, and weekly planning. | Skills, references, scripts, workflows | Active | Medium |
 
 ## Personal Productivity
 
