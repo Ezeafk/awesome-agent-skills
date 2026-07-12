@@ -6,7 +6,7 @@
 
 Этот список посвящен переиспользуемым возможностям, которые помогают AI agents выполнять реальные задачи. Это не prompt dump. У проекта должен быть понятный use case, переиспользуемая структура, инструкции по установке или использованию и достаточно контекста про inputs, outputs и safety boundaries.
 
-Последняя проверка: 2026-07-07
+Последняя проверка: 2026-07-12
 
 ## Что Считается Skill
 
@@ -65,6 +65,10 @@ Skills оцениваются перед включением. Stars — тол�
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Поисковый curated список AI-репозиториев, доступный через Claude Code skills. | Awesome list, search workflow, skills | Active | Low |
 | [JSONbored/awesome-claude](https://github.com/JSONbored/awesome-claude) | Claude, MCP, Generic Agent | Registry для Claude workflow assets, agents, MCP servers, skills, commands и hooks. | Registry, agents, skills, MCP, commands | Active | Medium |
 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | Claude Code, Copilot, Cursor, Codex, Gemini CLI, OpenCode, Aider, Windsurf | Устанавливаемая много-ролевая AI agency библиотека со специалистами для кодинга, безопасности, контента, продукта и бизнес-процессов. | Agent library, install scripts, converters, examples | Active | Medium |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | Claude Code, Cursor, Codex, Gemini CLI | Большая installable library agentic skills для разных coding agents. | Skill library, installer CLI, bundles, workflows | Active | Medium |
+| [wshobson/agents](https://github.com/wshobson/agents) | Claude Code, Codex, Cursor, Copilot, Gemini CLI | Multi-harness agentic plugin marketplace для coding assistants. | Agents, workflows, plugins, MCP configs | Active | Medium |
+| [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Generic Agent, Claude, Codex | Официальная коллекция agent skills от Vercel. | Skills, examples, workflows | Active | Medium |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Claude Code, Codex, OpenCode, Gemini CLI | Desktop skills и provider manager для нескольких coding agents. | Desktop app, skills management, provider switching | Active | Medium |
 
 ## Coding
 
@@ -81,6 +85,7 @@ Skills оцениваются перед включением. Stars — тол�
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | Production-grade engineering skills и lifecycle commands для AI coding agents. | Skills, commands, hooks, evals, references | Active | Medium |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Методология agentic software development, упакованная как комбинируемые skills. | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Превращает codebases, schemas, docs и media в queryable knowledge graph для coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | Harness optimization system со skills, memory, security и research discipline. | Skills, memory, security workflows, MCP | Active | Medium |
 
 ## Data Analysis
 
@@ -143,6 +148,8 @@ Skills оцениваются перед включением. Stars — тол�
 | [modelscope/Awesome-Vibe-Research](https://github.com/modelscope/Awesome-Vibe-Research) | Generic Agent | Research resources для vibe research и agentic research. | Awesome list, research workflows | Active | Low |
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | ChatGPT, OpenAI API, Generic Agent | Examples и guides, которые можно адаптировать в agent workflows. | Examples, notebooks, API workflows | Active | Low |
 | [simonw/llm](https://github.com/simonw/llm) | Generic Agent, CLI | Command-line LLM workflows и plugin-backed research tasks. | CLI, plugins, templates | Active | Medium |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Claude Code, Codex | Research skill для grounded summaries по свежим social и web sources. | Skill, web research workflow, source synthesis | Active | Medium |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Claude Code, Codex, Cursor, Generic Agent | Библиотека scientific skills для biology, chemistry, medicine и research agents. | Scientific skills, databases, workflows | Active | High |
 
 ## MCP and Tool Integration
 
@@ -170,6 +177,7 @@ Skills оцениваются перед включением. Stars — тол�
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Большая коллекция workflow templates для AI agents и business automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI automations и agent workflows для business tools. | n8n workflows, examples | Active | Medium |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | Marketing skills для CRO, copywriting, SEO, analytics и growth. | Skills, marketing workflows | Active | Medium |
 
 ## Personal Productivity
 
