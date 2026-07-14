@@ -85,6 +85,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | Production-grade engineering skills and lifecycle commands for AI coding agents. | Skills, commands, hooks, evals, references | Active | Medium |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Agentic software development methodology packaged as composable skills. | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Turn codebases, schemas, docs, and media into a queryable knowledge graph for coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
+| [0xsarwagya/ontoly](https://github.com/0xsarwagya/ontoly) | Claude Code, Codex, MCP | Deterministic Software Graph analysis for architecture, routes, dependencies, configuration, and impact questions. | CLI, MCP server, Agent Skills, validation reports | Active | Medium |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | Harness optimization system with skills, memory, security, and research discipline. | Skills, memory, security workflows, MCP | Active | Medium |
 
 ## Data Analysis
