@@ -178,6 +178,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | 面向 AI Agent 和业务自动化的大型工作流模板集合。 | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | 面向业务工具的 AI 自动化和 Agent 工作流。 | n8n workflows, examples | Active | Medium |
+| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | 面向技术 SEO、内容质量、schema、GEO/AEO、本地 SEO、backlinks、电商 SEO、国际 SEO 和报告生成的综合 Claude Code SEO skill suite。 | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | 面向 CRO、文案、SEO、分析和增长的营销 skills。 | Skills, marketing workflows | Active | Medium |
 
 ## Personal Productivity

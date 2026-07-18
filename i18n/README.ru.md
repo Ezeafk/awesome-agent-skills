@@ -178,6 +178,7 @@ Skills оцениваются перед включением. Stars — тол�
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Большая коллекция workflow templates для AI agents и business automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI automations и agent workflows для business tools. | n8n workflows, examples | Active | Medium |
+| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | Комплексный Claude Code SEO skill suite для technical SEO, качества контента, schema, GEO/AEO, local SEO, backlinks, e-commerce, international SEO и отчетности. | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | Marketing skills для CRO, copywriting, SEO, analytics и growth. | Skills, marketing workflows | Active | Medium |
 
 ## Personal Productivity

@@ -178,6 +178,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | AI agents と business automation 向けの大規模 workflow template collection。 | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | business tools 向けの AI automations と agent workflows。 | n8n workflows, examples | Active | Medium |
+| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | technical SEO、content quality、schema、GEO/AEO、local SEO、backlinks、e-commerce、international SEO、reporting を網羅する Claude Code SEO skill suite。 | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | CRO、copywriting、SEO、analytics、growth 向け marketing skills。 | Skills, marketing workflows | Active | Medium |
 
 ## Personal Productivity

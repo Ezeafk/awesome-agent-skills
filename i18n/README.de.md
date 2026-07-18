@@ -178,6 +178,7 @@ Aufnahmeleitlinie: 8-10 = empfohlen, 6-7 = akzeptabel mit Hinweisen, 4-5 = use w
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Große Workflow Template Collection für AI Agents und Business Automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI Automations und Agent Workflows für Business Tools. | n8n workflows, examples | Active | Medium |
+| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | Umfassende Claude-Code-SEO-Skill-Suite für Technical SEO, Content-Qualität, Schema, GEO/AEO, Local SEO, Backlinks, E-Commerce, internationales SEO und Reporting. | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | Marketing-Skills für CRO, Copywriting, SEO, Analytics und Growth. | Skills, marketing workflows | Active | Medium |
 
 ## Personal Productivity
