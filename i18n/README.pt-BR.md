@@ -6,7 +6,7 @@ Idiomas: [English](../README.md) | [简体中文](README.zh-CN.md) | [Português
 
 Esta lista foca em capacidades reutilizáveis que ajudam AI agents a concluir tarefas reais. Ela não é um prompt dump. Um projeto listado deve ter caso de uso claro, estrutura reutilizável, instruções de instalação ou uso e contexto suficiente para explicar entradas, saídas e limites de segurança.
 
-Última revisão: 2026-07-12
+Última revisão: 2026-07-18
 
 ## O Que Conta Como Skill
 
@@ -76,6 +76,7 @@ Guia de inclusão: 8-10 = recomendado, 6-7 = aceitável com ressalvas, 4-5 = use
 |---|---|---|---|---|---|
 | [openai/codex](https://github.com/openai/codex) | Codex | Agente de programação no terminal para tarefas de repositório. | CLI, sandboxed workflows, code automation | Active | Medium |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code | Programação agentic no terminal com contexto do repositório e workflows git. | CLI, tool workflows, coding automation | Active | Medium |
+| [xai-org/grok-build](https://github.com/xai-org/grok-build) | Grok Build, Claude Code, Codex, MCP | Agente de programação no terminal com TUI, headless mode, skills, plugins, hooks, MCP e sandboxing. | CLI, TUI, skills, plugins, MCP, hooks, sandbox | Active | Medium |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | Claude Code, GitHub | Executar workflows do Claude Code a partir do GitHub Actions. | GitHub Action, automation workflow | Active | Medium |
 | [jabrena/cursor-rules-java](https://github.com/jabrena/cursor-rules-java) | Cursor, Claude, Codex, Copilot | Workflow de desenvolvimento Java empresarial nativo para IA. | Rules, agents, commands, MCP servers | Active | Medium |
 | [DollarDill/beads-superpowers](https://github.com/DollarDill/beads-superpowers) | Claude Code, Codex, OpenCode | Skills de disciplina de processo e memória persistente de tarefas para agentes de programação. | Skills, task memory, TDD workflows | Active | Medium |

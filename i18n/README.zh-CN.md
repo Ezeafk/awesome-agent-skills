@@ -6,7 +6,7 @@
 
 本列表聚焦能帮助 AI Agent 完成真实任务的可复用能力包。它不是 prompt dump。被收录项目应有明确场景、可复用结构、安装或使用说明，并能解释输入、输出和安全边界。
 
-最后审核：2026-07-12
+最后审核：2026-07-18
 
 ## 什么算 Skill
 
@@ -76,6 +76,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 |---|---|---|---|---|---|
 | [openai/codex](https://github.com/openai/codex) | Codex | 用于仓库任务的终端编码 Agent。 | CLI, sandboxed workflows, code automation | Active | Medium |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code | 在终端中结合仓库上下文和 git 工作流进行 Agentic coding。 | CLI, tool workflows, coding automation | Active | Medium |
+| [xai-org/grok-build](https://github.com/xai-org/grok-build) | Grok Build, Claude Code, Codex, MCP | 带 TUI、headless mode、skills、plugins、hooks、MCP 和 sandboxing 的终端编码 Agent。 | CLI, TUI, skills, plugins, MCP, hooks, sandbox | Active | Medium |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | Claude Code, GitHub | 从 GitHub Actions 运行 Claude Code 工作流。 | GitHub Action, automation workflow | Active | Medium |
 | [jabrena/cursor-rules-java](https://github.com/jabrena/cursor-rules-java) | Cursor, Claude, Codex, Copilot | AI 原生的 Java 企业开发工作流。 | Rules, agents, commands, MCP servers | Active | Medium |
 | [DollarDill/beads-superpowers](https://github.com/DollarDill/beads-superpowers) | Claude Code, Codex, OpenCode | 面向编码 Agent 的流程纪律 Skill 和持久任务记忆。 | Skills, task memory, TDD workflows | Active | Medium |

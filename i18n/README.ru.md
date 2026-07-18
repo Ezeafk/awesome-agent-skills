@@ -6,7 +6,7 @@
 
 Этот список посвящен переиспользуемым возможностям, которые помогают AI agents выполнять реальные задачи. Это не prompt dump. У проекта должен быть понятный use case, переиспользуемая структура, инструкции по установке или использованию и достаточно контекста про inputs, outputs и safety boundaries.
 
-Последняя проверка: 2026-07-12
+Последняя проверка: 2026-07-18
 
 ## Что Считается Skill
 
@@ -76,6 +76,7 @@ Skills оцениваются перед включением. Stars — тол�
 |---|---|---|---|---|---|
 | [openai/codex](https://github.com/openai/codex) | Codex | Terminal coding agent для задач с репозиториями. | CLI, sandboxed workflows, code automation | Active | Medium |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code | Agentic coding в терминале с контекстом репозитория и git workflows. | CLI, tool workflows, coding automation | Active | Medium |
+| [xai-org/grok-build](https://github.com/xai-org/grok-build) | Grok Build, Claude Code, Codex, MCP | Terminal coding agent с TUI, headless mode, skills, plugins, hooks, MCP и sandboxing. | CLI, TUI, skills, plugins, MCP, hooks, sandbox | Active | Medium |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | Claude Code, GitHub | Запуск Claude Code workflows из GitHub Actions. | GitHub Action, automation workflow | Active | Medium |
 | [jabrena/cursor-rules-java](https://github.com/jabrena/cursor-rules-java) | Cursor, Claude, Codex, Copilot | AI-native workflow для Java enterprise development. | Rules, agents, commands, MCP servers | Active | Medium |
 | [DollarDill/beads-superpowers](https://github.com/DollarDill/beads-superpowers) | Claude Code, Codex, OpenCode | Process-discipline skills и постоянная task memory для coding agents. | Skills, task memory, TDD workflows | Active | Medium |
