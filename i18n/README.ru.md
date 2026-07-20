@@ -120,6 +120,7 @@ Skills оцениваются перед включением. Stars — тол�
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | Browser и API automation через Playwright. | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | Позволяет agents управлять cloud browsers через Browserbase и Stagehand. | MCP server, browser control | Active | Medium |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | OSINT tool discovery для research agents. | Curated MCP server list | Active | High |
+| [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | Codex, Claude, MCP, Generic Agent | Исследовать данные X, экспортировать их, отслеживать и выполнять действия с подтверждением. Not affiliated with X Corp. | Skill, references, hosted MCP endpoint, REST API, safety gates | Active | High |
 
 ## Security Skills
 

@@ -120,6 +120,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | Playwright による browser と API automation。 | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | Browserbase と Stagehand で agents が cloud browsers を制御できるようにする。 | MCP server, browser control | Active | Medium |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | research agents 向けの OSINT tool discovery。 | Curated MCP server list | Active | High |
+| [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | Codex, Claude, MCP, Generic Agent | X データの調査、エクスポート、モニタリング、確認必須の操作を実行。 Not affiliated with X Corp. | Skill, references, hosted MCP endpoint, REST API, safety gates | Active | High |
 
 ## Security Skills
 

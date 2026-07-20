@@ -120,6 +120,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | 通过 Playwright 进行浏览器和 API 自动化。 | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | 让 Agent 通过 Browserbase 和 Stagehand 控制云浏览器。 | MCP server, browser control | Active | Medium |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | 面向研究 Agent 的 OSINT 工具发现。 | Curated MCP server list | Active | High |
+| [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | Codex, Claude, MCP, Generic Agent | 执行 X 数据研究、导出、监控和需确认的操作。 Not affiliated with X Corp. | Skill, references, hosted MCP endpoint, REST API, safety gates | Active | High |
 
 ## Security Skills
 

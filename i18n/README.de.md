@@ -120,6 +120,7 @@ Aufnahmeleitlinie: 8-10 = empfohlen, 6-7 = akzeptabel mit Hinweisen, 4-5 = use w
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | Browser- und API-Automation über Playwright. | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | Agents Cloud Browsers mit Browserbase und Stagehand steuern lassen. | MCP server, browser control | Active | Medium |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | OSINT Tool Discovery für Research Agents. | Curated MCP server list | Active | High |
+| [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | Codex, Claude, MCP, Generic Agent | X-Datenrecherche, Exporte, Monitoring und bestätigungspflichtige Aktionen ausführen. Not affiliated with X Corp. | Skill, references, hosted MCP endpoint, REST API, safety gates | Active | High |
 
 ## Security Skills
 
