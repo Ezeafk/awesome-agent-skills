@@ -69,6 +69,7 @@ Skills оцениваются перед включением. Stars — тол�
 | [wshobson/agents](https://github.com/wshobson/agents) | Claude Code, Codex, Cursor, Copilot, Gemini CLI | Multi-harness agentic plugin marketplace для coding assistants. | Agents, workflows, plugins, MCP configs | Active | Medium |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Generic Agent, Claude, Codex | Официальная коллекция agent skills от Vercel. | Skills, examples, workflows | Active | Medium |
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Claude Code, Codex, OpenCode, Gemini CLI | Desktop skills и provider manager для нескольких coding agents. | Desktop app, skills management, provider switching | Active | Medium |
+| [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Codex, Claude Code, Copilot, Cursor, Devin | Обучать, оценивать и непрерывно улучшать переиспользуемые agent skills с помощью правок по траекториям и отложенных проверочных барьеров. | Skill optimizer, evals, benchmarks, plugins, WebUI | Active | High |
 
 ## Coding
 
@@ -84,6 +85,7 @@ Skills оцениваются перед включением. Stars — тол�
 | [avalonreset/legends-github](https://github.com/avalonreset/legends-github) | Claude Code, Codex, Gemini CLI | Workflows для GitHub repository optimization и community health. | Skills, audit workflow, metadata checks | Active | Medium |
 | [Jakevin/fastcontext-agent-tools](https://github.com/Jakevin/fastcontext-agent-tools) | Codex, MCP | Исследование репозиториев с FastContext. | MCP server, Codex skill | Active | Medium |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | Production-grade engineering skills и lifecycle commands для AI coding agents. | Skills, commands, hooks, evals, references | Active | Medium |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Claude Code, Codex, Cursor, OpenCode, MCP | Проводить точный review diff или всего репозитория с детерминированным выбором файлов, сбором контекста агентом, правилами и построчными замечаниями. | CLI, skills, plugins, MCP, CI, rules, benchmarks | Active | High |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Методология agentic software development, упакованная как комбинируемые skills. | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Превращает codebases, schemas, docs и media в queryable knowledge graph для coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | Harness optimization system со skills, memory, security и research discipline. | Skills, memory, security workflows, MCP | Active | Medium |
@@ -104,6 +106,7 @@ Skills оцениваются перед включением. Stars — тол�
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | Преобразование docs, GitHub repos и PDFs в Claude skills. | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | Programmatic NotebookLM workflows для agents. | Python API, CLI, agentic skill | Active | Medium |
+| [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | Claude Code, Codex, Cursor, Generic Agent | Создавать редактируемые в браузере презентации с несколькими темами и экспортировать их в HTML, PDF и PPTX. | Skill, themes, templates, render scripts, exporters | Active | Medium |
 
 ## Design and Frontend
 
@@ -150,6 +153,7 @@ Skills оцениваются перед включением. Stars — тол�
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | ChatGPT, OpenAI API, Generic Agent | Examples и guides, которые можно адаптировать в agent workflows. | Examples, notebooks, API workflows | Active | Low |
 | [simonw/llm](https://github.com/simonw/llm) | Generic Agent, CLI | Command-line LLM workflows и plugin-backed research tasks. | CLI, plugins, templates | Active | Medium |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Claude Code, Codex | Research skill для grounded summaries по свежим social и web sources. | Skill, web research workflow, source synthesis | Active | Medium |
+| [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | Claude Code, Codex, Cursor, Generic Agent | Создавать долговечную wiki под управлением LLM, которая принимает неизменяемые источники, отвечает с цитатами и проверяет доказательства и ссылки. | Skill, scripts, references, examples, linting | Active | Medium |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Claude Code, Codex, Cursor, Generic Agent | Библиотека scientific skills для biology, chemistry, medicine и research agents. | Scientific skills, databases, workflows | Active | High |
 
 ## MCP and Tool Integration
@@ -178,6 +182,7 @@ Skills оцениваются перед включением. Stars — тол�
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Большая коллекция workflow templates для AI agents и business automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI automations и agent workflows для business tools. | n8n workflows, examples | Active | Medium |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Claude Code, Codex, Copilot, Gemini CLI, Generic Agent | Управлять Drive, Gmail, Calendar, Sheets, Docs, Chat и другими Workspace API через CLI-backed skills, personas и многошаговые recipes. | CLI, 40+ skills, personas, recipes, structured JSON | Active | High |
 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | Комплексный Claude Code SEO skill suite для technical SEO, качества контента, schema, GEO/AEO, local SEO, backlinks, e-commerce, international SEO и отчетности. | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | Marketing skills для CRO, copywriting, SEO, analytics и growth. | Skills, marketing workflows | Active | Medium |
 
