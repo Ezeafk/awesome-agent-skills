@@ -165,6 +165,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | MCP servers と tool-use capabilities の厳選リスト。 | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | remote MCP server discovery。 | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent tools、servers、clients、integrations。 | Awesome list, protocols, tooling | Active | Medium |
+| [zenlee123/routerbase-agent-skills](https://github.com/zenlee123/routerbase-agent-skills) | Codex, Claude, Generic Agent | [routerbase](https://routerbase.com/) を OpenAI 互換ゲートウェイとして使い、model routing と media generation requests を処理する。 | Agent skills, API workflow, examples | Active | Medium |
 
 ## Finance Skills
 

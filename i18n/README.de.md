@@ -165,6 +165,7 @@ Aufnahmeleitlinie: 8-10 = empfohlen, 6-7 = akzeptabel mit Hinweisen, 4-5 = use w
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Kuratierte Liste von MCP servers und tool-use capabilities. | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Entdeckung von Remote MCP servers. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent Tools, Servers, Clients und Integrationen. | Awesome list, protocols, tooling | Active | Medium |
+| [zenlee123/routerbase-agent-skills](https://github.com/zenlee123/routerbase-agent-skills) | Codex, Claude, Generic Agent | Nutzt [routerbase](https://routerbase.com/) als OpenAI-kompatibles Gateway fuer Model Routing und Media Generation Requests. | Agent skills, API workflow, examples | Active | Medium |
 
 ## Finance Skills
 
