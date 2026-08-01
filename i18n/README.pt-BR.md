@@ -114,6 +114,7 @@ Guia de inclusão: 8-10 = recomendado, 6-7 = aceitável com ressalvas, 4-5 = use
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | Gerar JSON de workflow ComfyUI a partir de linguagem natural. | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | Controlar o ComfyUI local de ponta a ponta a partir de um agente. | Skill, prompt recipes, templates, automation | Active | Medium |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Claude Code, Codex, Cursor, Copilot, Windsurf | Produção de vídeo agentic de ponta a ponta, da pesquisa e roteiro à geração de ativos, edição, localização, renderização e QA final. | 12 pipelines, 100+ tools, 700+ skills, schemas, Remotion, FFmpeg, tests | Active | High |
 
 ## Browser and Web
 

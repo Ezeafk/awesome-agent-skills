@@ -114,6 +114,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | 根据自然语言生成 ComfyUI workflow JSON。 | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | 让 Agent 端到端驱动本地 ComfyUI。 | Skill, prompt recipes, templates, automation | Active | Medium |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Claude Code, Codex, Cursor, Copilot, Windsurf | 从研究与脚本创作，到素材生成、剪辑、本地化、渲染和成片质检，完成端到端 Agent 视频制作。 | 12 pipelines, 100+ tools, 700+ skills, schemas, Remotion, FFmpeg, tests | Active | High |
 
 ## Browser and Web
 

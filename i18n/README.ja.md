@@ -114,6 +114,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | 自然言語から ComfyUI workflow JSON を生成。 | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | agent からローカル ComfyUI をエンドツーエンドで操作。 | Skill, prompt recipes, templates, automation | Active | Medium |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Claude Code, Codex, Cursor, Copilot, Windsurf | リサーチと脚本作成から素材生成、編集、ローカライズ、レンダリング、完成後 QA までを行うエンドツーエンドの Agent 動画制作。 | 12 pipelines, 100+ tools, 700+ skills, schemas, Remotion, FFmpeg, tests | Active | High |
 
 ## Browser and Web
 
