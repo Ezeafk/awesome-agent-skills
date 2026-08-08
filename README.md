@@ -130,6 +130,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Claude, Codex, Generic Agent | Scan AI agent skills for malicious patterns, unsafe instructions, and security risks before installation. | Security scanner, CLI, reports, examples | Active | High |
+| [agent-contracts/skill-preflight](https://github.com/agent-contracts/skill-preflight) | Codex, Claude, Cursor, Gemini CLI, Generic Agent | Score agent skills before installation across security, permissions, token efficiency, footprint, reliability, and maintainability. | CLI, GitHub Action, reports, benchmark | Active | Medium |
 | [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | Claude, Generic Agent | Vet Agent Skills for supply-chain and prompt-level risks before teams adopt them. | Security scanner, rules, reports | Active | High |
 | [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | Scan AI agents, MCP servers, and agent skills for vulnerabilities and risky tool behavior. | Security scanner, CLI, rules | Active | High |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Security research, vulnerability detection, and audit workflows from Trail of Bits. | Skills, audit workflows, examples | Active | High |
