@@ -60,6 +60,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 |---|---|---|---|---|---|
 | [anthropics/skills](https://github.com/anthropics/skills) | Claude, Generic Agent | Public repository for Agent Skills. | Skills, examples, references | Active | Low |
 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Claude Code, MCP, Generic Agent | Official Anthropic-managed directory of Claude Code plugins. | Plugins, skills, commands, agents, MCP configs | Active | Medium |
+| [Bevel-Software/Hexis](https://github.com/Bevel-Software/Hexis) | Claude, ChatGPT, Cursor, Codex, MCP | Manage, review, and share role-scoped skills, tools, and context with AI agents over MCP. | Git-backed workspace, skill manager, tool vault, MCP server | Active | Medium |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copilot, Generic Agent | Community instructions, agents, skills, and configurations. | Instructions, agents, skills, configs | Active | Low |
 | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | Claude Code, Cursor, Copilot, Codex | Secure validated skill registry for professional coding agents. | Skill registry, validation, metadata | Active | Medium |
 | [taishi-i/awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | ChatGPT, Codex, Claude | Searchable curated AI repository list exposed through Claude Code skills. | Awesome list, search workflow, skills | Active | Low |
