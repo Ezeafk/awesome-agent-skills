@@ -193,6 +193,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 |---|---|---|---|---|---|
 | [Benkapner/claude-code-basecamp](https://github.com/Benkapner/claude-code-basecamp) | Claude Code | Workspace setup with skills, commands, and hooks. | Skills, commands, hooks | Active | Medium |
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | Repository-native memory, skills, and knowledge workflows. | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
+| [JanYork/llm-wiki-cli](https://github.com/JanYork/llm-wiki-cli) | Codex, Claude Code, Cursor, OpenCode, Gemini CLI, MCP | Persistent source-grounded project memory with bounded recall, citations, atomic changesets, and optional document and code graphs. | Skill, CLI, MCP server, memory, graphs | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | Meta-skill that distills repo knowledge into reusable skills. | Meta-skill, project skill generation | Active | Medium |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Claude Code, Codex, Cursor, MCP | Optimize agent context windows with tool-output sandboxing, session memory, MCP, and hooks. | MCP server, hooks, skills, memory, plugins | Active | Medium |
 
