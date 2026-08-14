@@ -88,6 +88,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Claude Code, Codex, Cursor, OpenCode, MCP | Run precise diff or full-repository code reviews with deterministic file selection, agent context gathering, rules, and line-level findings. | CLI, skills, plugins, MCP, CI, rules, benchmarks | Active | High |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Agentic software development methodology packaged as composable skills. | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Turn codebases, schemas, docs, and media into a queryable knowledge graph for coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
+| [leechen298/Code2Skill](https://github.com/leechen298/Code2Skill) | Claude, Codex, Generic Agent, MCP | Turn authorized application source code into runnable Functions, MCP tools, Agent Skills, and offline tests. | Skills, scripts, references, templates, tests | Active | Medium |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | Harness optimization system with skills, memory, security, and research discipline. | Skills, memory, security workflows, MCP | Active | Medium |
 
 ## Data Analysis
