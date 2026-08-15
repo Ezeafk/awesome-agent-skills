@@ -70,6 +70,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Generic Agent, Claude, Codex | Official Vercel collection of agent skills. | Skills, examples, workflows | Active | Medium |
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Claude Code, Codex, OpenCode, Gemini CLI | Desktop skills and provider manager for multiple coding agents. | Desktop app, skills management, provider switching | Active | Medium |
 | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Codex, Claude Code, Copilot, Cursor, Devin | Train, evaluate, and continuously improve reusable agent skills with trajectory-driven edits and held-out validation gates. | Skill optimizer, evals, benchmarks, plugins, WebUI | Active | High |
+| [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) | Claude Code, Codex, Cursor, Gemini CLI | 88 installable skills for research, social intelligence, marketing, and business workflows. | Skills, references, installer, tests | Active | Medium |
 
 ## Coding
 
