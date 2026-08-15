@@ -123,6 +123,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | MCP | Browser automation through Playwright MCP. | MCP server, browser tools | Active | Medium |
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | Browser and API automation through Playwright. | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | Let agents control cloud browsers with Browserbase and Stagehand. | MCP server, browser control | Active | Medium |
+| [vostride/agent-qa](https://github.com/vostride/agent-qa) | Claude Code, Codex, MCP | Author, run, triage, and debug natural-language web and mobile tests. | Three skills, CLI, MCP, memory, artifacts | Active | High |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | OSINT tool discovery for research agents. | Curated MCP server list | Active | High |
 
 ## Security Skills
