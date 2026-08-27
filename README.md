@@ -69,6 +69,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [wshobson/agents](https://github.com/wshobson/agents) | Claude Code, Codex, Cursor, Copilot, Gemini CLI | Multi-harness agentic plugin marketplace for coding assistants. | Agents, workflows, plugins, MCP configs | Active | Medium |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Generic Agent, Claude, Codex | Official Vercel collection of agent skills. | Skills, examples, workflows | Active | Medium |
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Claude Code, Codex, OpenCode, Gemini CLI | Desktop skills and provider manager for multiple coding agents. | Desktop app, skills management, provider switching | Active | Medium |
+| [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Codex, Claude Code, Copilot, Cursor, Devin | Train, evaluate, and continuously improve reusable agent skills with trajectory-driven edits and held-out validation gates. | Skill optimizer, evals, benchmarks, plugins, WebUI | Active | High |
 
 ## Coding
 
@@ -84,6 +85,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [avalonreset/legends-github](https://github.com/avalonreset/legends-github) | Claude Code, Codex, Gemini CLI | GitHub repository optimization and community health workflows. | Skills, audit workflow, metadata checks | Active | Medium |
 | [Jakevin/fastcontext-agent-tools](https://github.com/Jakevin/fastcontext-agent-tools) | Codex, MCP | Repository exploration with FastContext. | MCP server, Codex skill | Active | Medium |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | Production-grade engineering skills and lifecycle commands for AI coding agents. | Skills, commands, hooks, evals, references | Active | Medium |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Claude Code, Codex, Cursor, OpenCode, MCP | Run precise diff or full-repository code reviews with deterministic file selection, agent context gathering, rules, and line-level findings. | CLI, skills, plugins, MCP, CI, rules, benchmarks | Active | High |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Agentic software development methodology packaged as composable skills. | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Turn codebases, schemas, docs, and media into a queryable knowledge graph for coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | Harness optimization system with skills, memory, security, and research discipline. | Skills, memory, security workflows, MCP | Active | Medium |
@@ -104,6 +106,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | Convert docs, GitHub repos, and PDFs into Claude skills. | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | Programmatic NotebookLM workflows for agents. | Python API, CLI, agentic skill | Active | Medium |
+| [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | Claude Code, Codex, Cursor, Generic Agent | Generate browser-editable presentation decks with multiple themes and export them to HTML, PDF, and PPTX. | Skill, themes, templates, render scripts, exporters | Active | Medium |
 
 ## Design and Frontend
 
@@ -112,6 +115,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | Generate ComfyUI workflow JSON from natural language. | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | Drive local ComfyUI end to end from an agent. | Skill, prompt recipes, templates, automation | Active | Medium |
 | [UIZZE anti-ui-slop](https://github.com/uizze/uizze) | Codex, Claude Code, Cursor, Copilot, MCP | Ground UI work in 800,000+ real screen references at [uizze.com](https://uizze.com), write a design contract, and reject generic output at a finish gate. | Skill, workflow, examples, MCP option | Active | Medium |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Claude Code, Codex, Cursor, Copilot, Windsurf | End-to-end agentic video production from research and scripting through asset generation, editing, localization, rendering, and post-render QA. | 12 pipelines, 100+ tools, 700+ skills, schemas, Remotion, FFmpeg, tests | Active | High |
 
 ## Browser and Web
 
@@ -151,6 +155,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | ChatGPT, OpenAI API, Generic Agent | Examples and guides that can be adapted into agent workflows. | Examples, notebooks, API workflows | Active | Low |
 | [simonw/llm](https://github.com/simonw/llm) | Generic Agent, CLI | Command-line LLM workflows and plugin-backed research tasks. | CLI, plugins, templates | Active | Medium |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Claude Code, Codex | Recency research skill for grounded summaries across social and web sources. | Skill, web research workflow, source synthesis | Active | Medium |
+| [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | Claude Code, Codex, Cursor, Generic Agent | Build a durable LLM-maintained wiki that ingests immutable sources, answers with citations, and lints evidence and links. | Skill, scripts, references, examples, linting | Active | Medium |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Claude Code, Codex, Cursor, Generic Agent | Scientific skill library for biology, chemistry, medicine, and research agents. | Scientific skills, databases, workflows | Active | High |
 
 ## MCP and Tool Integration
@@ -179,6 +184,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Large workflow template collection for AI agents and business automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI automations and agent workflows for business tools. | n8n workflows, examples | Active | Medium |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Claude Code, Codex, Copilot, Gemini CLI, Generic Agent | Operate Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs with CLI-backed skills, personas, and multi-step recipes. | CLI, 40+ skills, personas, recipes, structured JSON | Active | High |
 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | Comprehensive Claude Code SEO skill suite for technical SEO, content quality, schema, GEO/AEO, local SEO, backlinks, e-commerce, international SEO, and reporting. | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | Marketing skills for CRO, copywriting, SEO, analytics, and growth. | Skills, marketing workflows | Active | Medium |
 

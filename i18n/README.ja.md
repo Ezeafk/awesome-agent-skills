@@ -69,6 +69,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [wshobson/agents](https://github.com/wshobson/agents) | Claude Code, Codex, Cursor, Copilot, Gemini CLI | coding assistants 向け multi-harness agentic plugin marketplace。 | Agents, workflows, plugins, MCP configs | Active | Medium |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Generic Agent, Claude, Codex | Vercel 公式の agent skills collection。 | Skills, examples, workflows | Active | Medium |
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Claude Code, Codex, OpenCode, Gemini CLI | 複数の coding agents 向け desktop skills/provider manager。 | Desktop app, skills management, provider switching | Active | Medium |
+| [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Codex, Claude Code, Copilot, Cursor, Devin | trajectory-driven edits と held-out validation gates により、再利用可能な Agent skills を継続的に学習、評価、改善する。 | Skill optimizer, evals, benchmarks, plugins, WebUI | Active | High |
 
 ## Coding
 
@@ -84,6 +85,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [avalonreset/legends-github](https://github.com/avalonreset/legends-github) | Claude Code, Codex, Gemini CLI | GitHub repository optimization と community health の workflows。 | Skills, audit workflow, metadata checks | Active | Medium |
 | [Jakevin/fastcontext-agent-tools](https://github.com/Jakevin/fastcontext-agent-tools) | Codex, MCP | FastContext による repository exploration。 | MCP server, Codex skill | Active | Medium |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | AI coding agent 向けの本番品質エンジニアリング Skill とライフサイクルコマンド。 | Skills, commands, hooks, evals, references | Active | Medium |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Claude Code, Codex, Cursor, OpenCode, MCP | 決定論的なファイル選択、Agent によるコンテキスト取得、ルール照合、行単位の指摘で diff またはリポジトリ全体を精密にレビューする。 | CLI, skills, plugins, MCP, CI, rules, benchmarks | Active | High |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Agentic software development 方法論を組み合わせ可能な Skill として提供。 | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | codebase、schema、docs、media を coding agent 用の検索可能な knowledge graph に変換。 | Knowledge graph, CLI, skills, tests | Active | Medium |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | skills、memory、security、research discipline を備えた harness optimization system。 | Skills, memory, security workflows, MCP | Active | Medium |
@@ -104,6 +106,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | docs、GitHub repos、PDFs を Claude skills に変換。 | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | agents 向けの NotebookLM programmatic workflows。 | Python API, CLI, agentic skill | Active | Medium |
+| [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | Claude Code, Codex, Cursor, Generic Agent | 複数のテーマからブラウザー編集可能なプレゼンテーションを生成し、HTML、PDF、PPTX に書き出す。 | Skill, themes, templates, render scripts, exporters | Active | Medium |
 
 ## Design and Frontend
 
@@ -111,6 +114,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | 自然言語から ComfyUI workflow JSON を生成。 | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | agent からローカル ComfyUI をエンドツーエンドで操作。 | Skill, prompt recipes, templates, automation | Active | Medium |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Claude Code, Codex, Cursor, Copilot, Windsurf | リサーチと脚本作成から素材生成、編集、ローカライズ、レンダリング、完成後 QA までを行うエンドツーエンドの Agent 動画制作。 | 12 pipelines, 100+ tools, 700+ skills, schemas, Remotion, FFmpeg, tests | Active | High |
 
 ## Browser and Web
 
@@ -150,6 +154,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | ChatGPT, OpenAI API, Generic Agent | agent workflows に適用できる examples と guides。 | Examples, notebooks, API workflows | Active | Low |
 | [simonw/llm](https://github.com/simonw/llm) | Generic Agent, CLI | command-line LLM workflows と plugin-backed research tasks。 | CLI, plugins, templates | Active | Medium |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Claude Code, Codex | social と web sources から根拠ある最新要約を作る research skill。 | Skill, web research workflow, source synthesis | Active | Medium |
+| [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | Claude Code, Codex, Cursor, Generic Agent | 不変のソースを取り込み、引用付きで回答し、証拠とリンクを lint する、LLM 管理の永続的な wiki を構築する。 | Skill, scripts, references, examples, linting | Active | Medium |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Claude Code, Codex, Cursor, Generic Agent | biology、chemistry、medicine、research agents 向け scientific skills library。 | Scientific skills, databases, workflows | Active | High |
 
 ## MCP and Tool Integration
@@ -178,6 +183,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | AI agents と business automation 向けの大規模 workflow template collection。 | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | business tools 向けの AI automations と agent workflows。 | n8n workflows, examples | Active | Medium |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Claude Code, Codex, Copilot, Gemini CLI, Generic Agent | CLI-backed skills、personas、multi-step recipes で Drive、Gmail、Calendar、Sheets、Docs、Chat などの Workspace API を操作する。 | CLI, 40+ skills, personas, recipes, structured JSON | Active | High |
 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | technical SEO、content quality、schema、GEO/AEO、local SEO、backlinks、e-commerce、international SEO、reporting を網羅する Claude Code SEO skill suite。 | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | CRO、copywriting、SEO、analytics、growth 向け marketing skills。 | Skills, marketing workflows | Active | Medium |
 

@@ -69,6 +69,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [wshobson/agents](https://github.com/wshobson/agents) | Claude Code, Codex, Cursor, Copilot, Gemini CLI | 面向编码助手的多 harness agentic plugin marketplace。 | Agents, workflows, plugins, MCP configs | Active | Medium |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Generic Agent, Claude, Codex | Vercel 官方 agent skills 集合。 | Skills, examples, workflows | Active | Medium |
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Claude Code, Codex, OpenCode, Gemini CLI | 面向多种编码 Agent 的桌面端 skills 与 provider 管理器。 | Desktop app, skills management, provider switching | Active | Medium |
+| [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Codex, Claude Code, Copilot, Cursor, Devin | 通过基于轨迹的编辑和留出验证门，持续训练、评估并改进可复用的 Agent skills。 | Skill optimizer, evals, benchmarks, plugins, WebUI | Active | High |
 
 ## Coding
 
@@ -84,6 +85,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [avalonreset/legends-github](https://github.com/avalonreset/legends-github) | Claude Code, Codex, Gemini CLI | GitHub 仓库优化和社区健康工作流。 | Skills, audit workflow, metadata checks | Active | Medium |
 | [Jakevin/fastcontext-agent-tools](https://github.com/Jakevin/fastcontext-agent-tools) | Codex, MCP | 使用 FastContext 进行仓库探索。 | MCP server, Codex skill | Active | Medium |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Claude Code, Codex, Cursor, Copilot | 面向 AI 编码 Agent 的生产级工程 Skill 和生命周期命令。 | Skills, commands, hooks, evals, references | Active | Medium |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Claude Code, Codex, Cursor, OpenCode, MCP | 通过确定性文件选择、Agent 上下文检索、规则匹配和行级结果，对 diff 或整个代码库执行精准审查。 | CLI, skills, plugins, MCP, CI, rules, benchmarks | Active | High |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | 将 Agentic 软件开发方法论封装为可组合 Skill。 | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | 将代码库、schema、文档和媒体转换为可查询知识图谱，供编码 Agent 使用。 | Knowledge graph, CLI, skills, tests | Active | Medium |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | 包含 skills、记忆、安全与研究纪律的 harness 优化系统。 | Skills, memory, security workflows, MCP | Active | Medium |
@@ -104,6 +106,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 |---|---|---|---|---|---|
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | 将文档、GitHub 仓库和 PDF 转换为 Claude skills。 | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | 面向 Agent 的 NotebookLM 编程式工作流。 | Python API, CLI, agentic skill | Active | Medium |
+| [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | Claude Code, Codex, Cursor, Generic Agent | 使用多种主题生成可在浏览器中编辑的演示文稿，并导出为 HTML、PDF 和 PPTX。 | Skill, themes, templates, render scripts, exporters | Active | Medium |
 
 ## Design and Frontend
 
@@ -111,6 +114,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 |---|---|---|---|---|---|
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | 根据自然语言生成 ComfyUI workflow JSON。 | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | 让 Agent 端到端驱动本地 ComfyUI。 | Skill, prompt recipes, templates, automation | Active | Medium |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Claude Code, Codex, Cursor, Copilot, Windsurf | 从研究与脚本创作，到素材生成、剪辑、本地化、渲染和成片质检，完成端到端 Agent 视频制作。 | 12 pipelines, 100+ tools, 700+ skills, schemas, Remotion, FFmpeg, tests | Active | High |
 
 ## Browser and Web
 
@@ -150,6 +154,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | ChatGPT, OpenAI API, Generic Agent | 可改造为 Agent 工作流的示例和指南。 | Examples, notebooks, API workflows | Active | Low |
 | [simonw/llm](https://github.com/simonw/llm) | Generic Agent, CLI | 命令行 LLM 工作流和插件支持的研究任务。 | CLI, plugins, templates | Active | Medium |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Claude Code, Codex | 跨社交与 Web 来源生成有依据近期摘要的研究 skill。 | Skill, web research workflow, source synthesis | Active | Medium |
+| [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | Claude Code, Codex, Cursor, Generic Agent | 构建由 LLM 维护的持久知识库：摄取不可变来源、基于引用回答，并检查证据与链接。 | Skill, scripts, references, examples, linting | Active | Medium |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Claude Code, Codex, Cursor, Generic Agent | 面向生物、化学、医学和科研 Agent 的科学 skill 库。 | Scientific skills, databases, workflows | Active | High |
 
 ## MCP and Tool Integration
@@ -178,6 +183,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 |---|---|---|---|---|---|
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | 面向 AI Agent 和业务自动化的大型工作流模板集合。 | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | 面向业务工具的 AI 自动化和 Agent 工作流。 | n8n workflows, examples | Active | Medium |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Claude Code, Codex, Copilot, Gemini CLI, Generic Agent | 通过 CLI 驱动的 skills、角色包和多步骤 recipes 操作 Drive、Gmail、Calendar、Sheets、Docs、Chat 等 Workspace API。 | CLI, 40+ skills, personas, recipes, structured JSON | Active | High |
 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | 面向技术 SEO、内容质量、schema、GEO/AEO、本地 SEO、backlinks、电商 SEO、国际 SEO 和报告生成的综合 Claude Code SEO skill suite。 | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | 面向 CRO、文案、SEO、分析和增长的营销 skills。 | Skills, marketing workflows | Active | Medium |
 
