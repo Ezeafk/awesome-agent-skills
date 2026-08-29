@@ -144,6 +144,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [AmoyLab/Unla](https://github.com/AmoyLab/Unla) | MCP | Transform APIs and MCP servers into managed MCP capabilities. | Gateway, UI, Docker deployment | Active | Medium |
 | [milisp/mcp-linker](https://github.com/milisp/mcp-linker) | MCP, Claude, Cursor | Sync MCP server configurations across clients. | MCP manager, config sync | Active | Medium |
 | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | Codex, Claude Code, Cursor, MCP | Scan plugins, skills, and MCP servers before tools run. | Security scanner, CLI, policy checks | Active | High |
+| [d1vai/d1v-cli](https://github.com/d1vai/d1v-cli/tree/main/skills/d1v) | Codex, Claude Code | Deploy AI-built web projects with verified previews and explicitly confirmed production releases. | CLI, deployment workflow skill, references | Active | High |
 
 ## Research
 
