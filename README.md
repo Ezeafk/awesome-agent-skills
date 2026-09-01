@@ -203,6 +203,7 @@ These projects can be valuable, but they involve sensitive domains such as secur
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
 | [gadievron/raptor](https://github.com/gadievron/raptor) | Claude Code | Offensive and defensive security agent workflows. | Rules, sub-agents, skills, security tools | Use with care | High |
+| [omarmohelal/SecHelix](https://github.com/omarmohelal/SecHelix) | Claude Code, Generic Agent | Evidence-first application-security review with independent verification of every candidate finding. | Skill, 546-check catalog, JSON schemas, gold packs, scanner adapters, eval fixtures | Active | High |
 | [matank001/cursor-security-rules](https://github.com/matank001/cursor-security-rules) | Cursor | Security rules for AI-assisted development workflows. | Cursor rules, guardrails | Use with care | High |
 | [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | Generic Agent, MCP | Trading agents, market research, and execution resources. | Awesome list, MCP servers, agent skills | Use with care | High |
 | [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) | MCP | OSINT MCP servers and investigative tooling. | Awesome list, MCP resources | Use with care | High |
