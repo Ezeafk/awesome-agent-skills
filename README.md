@@ -186,6 +186,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | Claude Code, Codex, Copilot, Gemini CLI, Generic Agent | Operate Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs with CLI-backed skills, personas, and multi-step recipes. | CLI, 40+ skills, personas, recipes, structured JSON | Active | High |
 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | Comprehensive Claude Code SEO skill suite for technical SEO, content quality, schema, GEO/AEO, local SEO, backlinks, e-commerce, international SEO, and reporting. | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | Marketing skills for CRO, copywriting, SEO, analytics, and growth. | Skills, marketing workflows | Active | Medium |
+| [azeemkafridi/bulkpublish-api](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) | Codex, Claude, MCP, Generic Agent | Social media content planning, adaptation, review, scheduling, and publishing for AI agents. | 24 skills, API, MCP server, SDKs | Active | High |
 
 ## Personal Productivity
 
