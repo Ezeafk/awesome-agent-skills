@@ -145,6 +145,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [milisp/mcp-linker](https://github.com/milisp/mcp-linker) | MCP, Claude, Cursor | Sync MCP server configurations across clients. | MCP manager, config sync | Active | Medium |
 | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | Codex, Claude Code, Cursor, MCP | Scan plugins, skills, and MCP servers before tools run. | Security scanner, CLI, policy checks | Active | High |
 
+| [tushaarmehtaa/deploy-check](https://github.com/tushaarmehtaa/tushar-skills/tree/main/deploy-check) | Codex, Claude Code, Cursor | Review release readiness, migrations, configuration, and rollback; deployment requires separate authorization. | SKILL.md preflight workflow, verdict and evidence format | Active | High |
+
 ## Research
 
 | Skill | Platform | Use case | Includes | Status | Risk |
