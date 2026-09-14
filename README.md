@@ -195,6 +195,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [Daaaaave/agentic-workspace-core](https://github.com/Daaaaave/agentic-workspace-core) | Claude Code, Codex | Repository-native memory, skills, and knowledge workflows. | Memory, AGENTS.md, skills, llms.txt | Active | Medium |
 | [WoJiSama/skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture) | Cursor, Claude Code, Codex, Gemini | Meta-skill that distills repo knowledge into reusable skills. | Meta-skill, project skill generation | Active | Medium |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Claude Code, Codex, Cursor, MCP | Optimize agent context windows with tool-output sandboxing, session memory, MCP, and hooks. | MCP server, hooks, skills, memory, plugins | Active | Medium |
+| [vaibhavarora14/job-application-agent](https://github.com/vaibhavarora14/job-application-agent) | Claude Code, Cursor, Codex | Privacy-first job discovery, qualification, form completion, and confirmed-submit tracking for your own applications. | Skill, CLI, browser workflows, eligibility checks | Active | Medium |
 
 ## Use With Care
 
