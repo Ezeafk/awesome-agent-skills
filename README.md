@@ -75,6 +75,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
+| [Qiuner/birdview](https://github.com/Qiuner/birdview) | Claude Code, Codex, DeepSeek Harness | Review architecture, constraints, and planned change scope before agent implementation. | Skill, interactive maps, source evidence, change scope, validators | Active | Medium |
 | [openai/codex](https://github.com/openai/codex) | Codex | Terminal coding agent for repository tasks. | CLI, sandboxed workflows, code automation | Active | Medium |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code | Agentic coding in the terminal with repo context and git workflows. | CLI, tool workflows, coding automation | Active | Medium |
 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | Grok Build, Claude Code, Codex, MCP | Terminal coding agent with TUI, headless mode, skills, plugins, hooks, MCP, and sandboxing. | CLI, TUI, skills, plugins, MCP, hooks, sandbox | Active | Medium |
