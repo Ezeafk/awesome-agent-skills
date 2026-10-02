@@ -107,6 +107,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | 将文档、GitHub 仓库和 PDF 转换为 Claude skills。 | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | 面向 Agent 的 NotebookLM 编程式工作流。 | Python API, CLI, agentic skill | Active | Medium |
 | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | Claude Code, Codex, Cursor, Generic Agent | 使用多种主题生成可在浏览器中编辑的演示文稿，并导出为 HTML、PDF 和 PPTX。 | Skill, themes, templates, render scripts, exporters | Active | Medium |
+| [vittta/translate-paper-zh](https://github.com/vittta/translate-paper-zh) | Codex, Generic Agent | 将学术论文翻译为可检索的中文 PDF，尽量保留双栏、公式、图表和引用。 | Workflow, scripts, references, examples | Active | Medium |
 
 ## Design and Frontend
 

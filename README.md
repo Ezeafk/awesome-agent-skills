@@ -107,6 +107,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Claude | Convert docs, GitHub repos, and PDFs into Claude skills. | Parser, OCR, conflict detection, MCP | Active | Medium |
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | Programmatic NotebookLM workflows for agents. | Python API, CLI, agentic skill | Active | Medium |
 | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | Claude Code, Codex, Cursor, Generic Agent | Generate browser-editable presentation decks with multiple themes and export them to HTML, PDF, and PPTX. | Skill, themes, templates, render scripts, exporters | Active | Medium |
+| [vittta/translate-paper-zh](https://github.com/vittta/translate-paper-zh) | Codex, Generic Agent | Translate academic papers into searchable Chinese PDFs with scholarly layout. | Workflow, scripts, references, examples | Active | Medium |
 
 ## Design and Frontend
 
