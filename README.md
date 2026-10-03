@@ -112,6 +112,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
+| [HumanLeap MagicScreenshots](https://github.com/Humanleap/magicscreenshots-agent-plugin) | Claude Code, Codex, Cursor, Gemini CLI, MCP | Research real App Store screenshots; generate or localize user-approved listing assets with spending approval. | Skill, MCP config, screenshot workflows, examples | Active | High |
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | Generate ComfyUI workflow JSON from natural language. | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | Drive local ComfyUI end to end from an agent. | Skill, prompt recipes, templates, automation | Active | Medium |
 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Claude Code, Codex, Cursor, Copilot, Windsurf | End-to-end agentic video production from research and scripting through asset generation, editing, localization, rendering, and post-render QA. | 12 pipelines, 100+ tools, 700+ skills, schemas, Remotion, FFmpeg, tests | Active | High |
@@ -149,6 +150,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
+| [HumanLeap SentryDock](https://github.com/Humanleap/sentrydock-agent-plugin) | Claude Code, Codex, Cursor, Gemini CLI, MCP | Search source-linked news, build briefings, and create user-authorised recurring monitors. | Skill, MCP config, CLI/API workflow, examples | Active | Medium |
 | [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) | Claude Code, Generic Agent | Bioinformatics workflows for coding agents. | SKILLS.md files, domain workflows | Active | Medium |
 | [modelscope/Awesome-Vibe-Research](https://github.com/modelscope/Awesome-Vibe-Research) | Generic Agent | Research resources for vibe research and agentic research. | Awesome list, research workflows | Active | Low |
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | ChatGPT, OpenAI API, Generic Agent | Examples and guides that can be adapted into agent workflows. | Examples, notebooks, API workflows | Active | Low |
@@ -161,6 +163,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
+| [HumanLeap ToolRouter](https://github.com/Humanleap/toolrouter-agent-plugin) | Claude Code, Codex, Cursor, Gemini CLI, MCP | Discover schemas and run hosted provider operations, with account/action authority, spending checks and completed-job verification. | Skill, MCP config, provider reference, examples | Active | High |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | MCP | Reference MCP servers for tool-backed agent capabilities. | MCP servers, examples | Active | Medium |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP | Large curated collection of MCP servers. | Awesome list, categories | Active | Medium |
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Curated list of MCP servers and tool-use capabilities. | Awesome list, server links | Active | Medium |
@@ -181,6 +184,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
+| [HumanLeap Tradehand](https://github.com/Humanleap/tradehand-agent-plugin) | Claude Code, Codex, Cursor, Gemini CLI, MCP | Find UK tradespeople and prepare exact-price bookings; user review precedes booking commitment and payment handoff. | Skill, MCP config, discovery and booking workflow | Active | High |
+| [HumanLeap bot.store](https://github.com/Humanleap/bot-store-agent-plugin) | Claude Code, Codex, Cursor, Gemini CLI, MCP | Find Grok Bot templates and hand off a user-chosen free install or paid checkout; no automatic payment. | Skill, MCP config, marketplace workflow, examples | Active | High |
 | [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | n8n, Generic Agent | Large workflow template collection for AI agents and business automation. | Workflow templates, integrations | Active | Medium |
 | [lucaswalter/n8n-ai-automations](https://github.com/lucaswalter/n8n-ai-automations) | n8n | AI automations and agent workflows for business tools. | n8n workflows, examples | Active | Medium |
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | Claude Code, Codex, Copilot, Gemini CLI, Generic Agent | Operate Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs with CLI-backed skills, personas, and multi-step recipes. | CLI, 40+ skills, personas, recipes, structured JSON | Active | High |
