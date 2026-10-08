@@ -149,6 +149,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
+| [Arcmira: YouTube Transcript Search](https://github.com/arcmira/mcp) | Claude Code, Codex, MCP | Find timestamped quotes, speakers and sponsors across indexed videos. Requires an account; reads can use account credits and configured on-demand budget. | Six skills, worked programs, [Arcmira](https://arcmira.com/), [API docs](https://arcmira.com/docs) | Active | Medium |
 | [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) | Claude Code, Generic Agent | Bioinformatics workflows for coding agents. | SKILLS.md files, domain workflows | Active | Medium |
 | [modelscope/Awesome-Vibe-Research](https://github.com/modelscope/Awesome-Vibe-Research) | Generic Agent | Research resources for vibe research and agentic research. | Awesome list, research workflows | Active | Low |
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | ChatGPT, OpenAI API, Generic Agent | Examples and guides that can be adapted into agent workflows. | Examples, notebooks, API workflows | Active | Low |
