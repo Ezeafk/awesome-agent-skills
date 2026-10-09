@@ -134,6 +134,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | 扫描 AI agents、MCP servers 和 agent skills 中的漏洞及高风险工具行为。 | Security scanner, CLI, rules | Active | High |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Trail of Bits 提供的安全研究、漏洞检测和审计工作流。 | Skills, audit workflows, examples | Active | High |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | 对 AI 基础设施进行红队评估，覆盖 agent、skill、MCP、jailbreak 和 LLM 安全扫描。 | Red-team platform, scanners, reports | Active | High |
+| [morluto/rea — reverse-engineer-anything](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything) | Codex, MCP | 用来源证据分析已发布二进制与 JavaScript/Electron 应用；需另装 REA，原生深度分析需自备 Hopper、Ghidra 或 IDA。 | Skill, references, CLI, MCP server | Active | High |
 
 ## DevOps and Cloud
 

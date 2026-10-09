@@ -134,6 +134,7 @@ Aufnahmeleitlinie: 8-10 = empfohlen, 6-7 = akzeptabel mit Hinweisen, 4-5 = use w
 | [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | AI agents, MCP servers und agent skills auf Schwachstellen und riskantes Tool-Verhalten scannen. | Security scanner, CLI, rules | Active | High |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Security-Research-, Schwachstellenerkennungs- und Audit-Workflows von Trail of Bits. | Skills, audit workflows, examples | Active | High |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | AI-Infrastruktur mit Agent-, Skill-, MCP-, Jailbreak- und LLM-Security-Scans per Red Team prüfen. | Red-team platform, scanners, reports | Active | High |
+| [morluto/rea — reverse-engineer-anything](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything) | Codex, MCP | Untersucht ausgelieferte Binärdateien und JavaScript/Electron-Apps mit Quellenbelegen; REA separat installieren und für tiefgehende native Analyse eigenes Hopper, Ghidra oder IDA bereitstellen. | Skill, references, CLI, MCP server | Active | High |
 
 ## DevOps and Cloud
 

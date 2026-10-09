@@ -134,6 +134,7 @@ Skills оцениваются перед включением. Stars — тол�
 | [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | Сканировать AI agents, MCP servers и agent skills на уязвимости и рискованное поведение tools. | Security scanner, CLI, rules | Active | High |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Workflows от Trail of Bits для security research, поиска уязвимостей и аудита. | Skills, audit workflows, examples | Active | High |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | Проводить red-team проверку AI-инфраструктуры через сканы agent, skill, MCP, jailbreak и LLM security. | Red-team platform, scanners, reports | Active | High |
+| [morluto/rea — reverse-engineer-anything](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything) | Codex, MCP | Исследует готовые бинарные файлы и приложения JavaScript/Electron с привязкой к источникам; REA устанавливается отдельно, для глубокого нативного анализа нужен Hopper, Ghidra или IDA. | Skill, references, CLI, MCP server | Active | High |
 
 ## DevOps and Cloud
 
