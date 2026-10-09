@@ -120,6 +120,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 
 | Skill | Platform | Use case | Includes | Status | Risk |
 |---|---|---|---|---|---|
+| [ReplyNodes URL to Markdown](https://github.com/replynodes/replynodes-agent-skills/tree/main/skills/url-to-markdown) | Generic Agent, Claude, Codex, Cursor, Copilot | Fetch a public webpage as clean Markdown for agent context. | Read-only HTTP API, skill instructions, documentation | Active | Low |
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | MCP | Browser automation through Playwright MCP. | MCP server, browser tools | Active | Medium |
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | MCP, Claude, Cursor | Browser and API automation through Playwright. | MCP server, Playwright workflows | Active | Medium |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | MCP | Let agents control cloud browsers with Browserbase and Stagehand. | MCP server, browser control | Active | Medium |
