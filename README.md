@@ -134,7 +134,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | Scan AI agents, MCP servers, and agent skills for vulnerabilities and risky tool behavior. | Security scanner, CLI, rules | Active | High |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Security research, vulnerability detection, and audit workflows from Trail of Bits. | Skills, audit workflows, examples | Active | High |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | Red-team AI infrastructure with agent, skill, MCP, jailbreak, and LLM security scans. | Red-team platform, scanners, reports | Active | High |
-| [morluto/rea — reverse-engineer-anything](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything) | Codex, MCP | Inspect shipped binaries and JavaScript/Electron apps with source-linked evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis. | Skill, references, CLI, MCP server | Active | High |
+| [morluto/rea — reverse-engineer-anything](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything) | Codex, MCP | Inspect shipped binaries and JavaScript/Electron apps with source-linked evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis. | Skill, references, CLI, MCP server | Active | High |
 
 ## DevOps and Cloud
 

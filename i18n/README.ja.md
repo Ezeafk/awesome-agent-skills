@@ -134,7 +134,7 @@ Skills は掲載前にスコアリングします。Stars は弱いシグナル�
 | [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | AI agents、MCP servers、agent skills の脆弱性や危険な tool 挙動をスキャン。 | Security scanner, CLI, rules | Active | High |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Trail of Bits によるセキュリティ調査、脆弱性検出、監査ワークフロー。 | Skills, audit workflows, examples | Active | High |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | agent、skill、MCP、jailbreak、LLM セキュリティスキャンで AI インフラを red-team 評価。 | Red-team platform, scanners, reports | Active | High |
-| [morluto/rea — reverse-engineer-anything](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything) | Codex, MCP | 配布済みバイナリと JavaScript/Electron アプリを出典付きの証拠で解析。REA は別途インストールし、ネイティブの詳細解析には Hopper、Ghidra、IDA のいずれかを用意。 | Skill, references, CLI, MCP server | Active | High |
+| [morluto/rea — reverse-engineer-anything](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything) | Codex, MCP | 配布済みバイナリと JavaScript/Electron アプリを出典付きの証拠で解析。REA は別途インストールし、ネイティブの詳細解析には Hopper、Ghidra、IDA のいずれかを用意。 | Skill, references, CLI, MCP server | Active | High |
 
 ## DevOps and Cloud
 
