@@ -156,6 +156,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Claude Code, Codex | Recency research skill for grounded summaries across social and web sources. | Skill, web research workflow, source synthesis | Active | Medium |
 | [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | Claude Code, Codex, Cursor, Generic Agent | Build a durable LLM-maintained wiki that ingests immutable sources, answers with citations, and lints evidence and links. | Skill, scripts, references, examples, linting | Active | Medium |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Claude Code, Codex, Cursor, Generic Agent | Scientific skill library for biology, chemistry, medicine, and research agents. | Scientific skills, databases, workflows | Active | High |
+| [Superfast-Robotics/robot-skill-hub](https://github.com/Superfast-Robotics/robot-skill-hub) | Codex, Claude Code, Generic Agent | Discover pinned robotics examples, prepare supported recipes, and reuse reviewed task findings. | SKILL.md, Python CLI, JSON catalog, schemas, runtime evidence | Active | Medium |
 
 ## MCP and Tool Integration
 
