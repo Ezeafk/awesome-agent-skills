@@ -99,6 +99,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [EtienneLescot/n8n-as-code](https://github.com/EtienneLescot/n8n-as-code) | n8n, Claude, Cursor, Copilot | Give agents n8n workflow creation and sync capabilities. | TypeScript workflows, schemas, templates | Active | Medium |
 | [product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills) | Claude, Codex | Product management skill families and structured product workflows. | Skills, templates, examples, CI contracts | Active | Medium |
 | [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | Generic Agent, MCP | Market research, strategy, and trading agent skills. | Awesome list, MCP servers, workflows | Active | High |
+| [exmergo/dex](https://github.com/exmergo/dex) | Claude, Codex | Warehouse exploration, dbt and semantic modeling, and schema-drift detection. | Workflow, scripts, references, examples | Active | Medium |
 
 ## Documents
 
