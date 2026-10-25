@@ -69,6 +69,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [wshobson/agents](https://github.com/wshobson/agents) | Claude Code, Codex, Cursor, Copilot, Gemini CLI | Multi-harness agentic plugin marketplace for coding assistants. | Agents, workflows, plugins, MCP configs | Active | Medium |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Generic Agent, Claude, Codex | Official Vercel collection of agent skills. | Skills, examples, workflows | Active | Medium |
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Claude Code, Codex, OpenCode, Gemini CLI | Desktop skills and provider manager for multiple coding agents. | Desktop app, skills management, provider switching | Active | Medium |
+| [zyfn/oneskill](https://github.com/zyfn/oneskill) | Codex, Cursor, MCP | Manage a local Skill library with verified imports, backups, and explicit Agent directory links. | MCP server, CLI, Web UI, Codex plugin | Active | Medium |
 | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Codex, Claude Code, Copilot, Cursor, Devin | Train, evaluate, and continuously improve reusable agent skills with trajectory-driven edits and held-out validation gates. | Skill optimizer, evals, benchmarks, plugins, WebUI | Active | High |
 
 ## Coding

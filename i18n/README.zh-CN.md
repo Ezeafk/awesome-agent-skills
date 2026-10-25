@@ -69,6 +69,7 @@ Skill 收录前需要评分。Star 只是弱信号；小众 skill 如果能解�
 | [wshobson/agents](https://github.com/wshobson/agents) | Claude Code, Codex, Cursor, Copilot, Gemini CLI | 面向编码助手的多 harness agentic plugin marketplace。 | Agents, workflows, plugins, MCP configs | Active | Medium |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Generic Agent, Claude, Codex | Vercel 官方 agent skills 集合。 | Skills, examples, workflows | Active | Medium |
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Claude Code, Codex, OpenCode, Gemini CLI | 面向多种编码 Agent 的桌面端 skills 与 provider 管理器。 | Desktop app, skills management, provider switching | Active | Medium |
+| [zyfn/oneskill](https://github.com/zyfn/oneskill) | Codex, Cursor, MCP | 管理本地 Skill 库，校验并备份导入包，按需创建 Agent 目录链接。 | MCP server, CLI, Web UI, Codex plugin | Active | Medium |
 | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Codex, Claude Code, Copilot, Cursor, Devin | 通过基于轨迹的编辑和留出验证门，持续训练、评估并改进可复用的 Agent skills。 | Skill optimizer, evals, benchmarks, plugins, WebUI | Active | High |
 
 ## Coding
