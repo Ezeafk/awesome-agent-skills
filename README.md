@@ -108,6 +108,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Claude, Codex, Python | Programmatic NotebookLM workflows for agents. | Python API, CLI, agentic skill | Active | Medium |
 | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | Claude Code, Codex, Cursor, Generic Agent | Generate browser-editable presentation decks with multiple themes and export them to HTML, PDF, and PPTX. | Skill, themes, templates, render scripts, exporters | Active | Medium |
 
+| [signbee/skill](https://github.com/signbee/skill) | Claude Code, Codex, Cursor, Copilot, MCP, Generic Agent | Draft and send Markdown or PDF contracts, NDAs, and agreements for two-party e-signing with SHA-256 tamper-evident certificates; enforces sender OTP verification on keyless requests. | Skill (`SKILL.md`), REST API workflow, MCP server (`signbee/mcp`), Cursor plugin | Active | Medium |
+
 ## Design and Frontend
 
 | Skill | Platform | Use case | Includes | Status | Risk |
