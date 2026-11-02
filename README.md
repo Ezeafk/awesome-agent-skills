@@ -89,6 +89,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Agentic software development methodology packaged as composable skills. | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Turn codebases, schemas, docs, and media into a queryable knowledge graph for coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | Harness optimization system with skills, memory, security, and research discipline. | Skills, memory, security workflows, MCP | Active | Medium |
+| [zozo123/ariflow-swfactory](https://github.com/zozo123/ariflow-swfactory/tree/main/skills/airflow-software-factory) | Claude Code, Codex, Cursor | Operate an Apache Airflow software factory that turns GitHub issues into tested, reviewed pull requests. | Skills, CLI, Airflow blueprints, demo, CI tests | Active | Medium |
 
 ## Data Analysis
 
