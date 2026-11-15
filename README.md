@@ -166,6 +166,7 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | MCP | Curated list of MCP servers and tool-use capabilities. | Awesome list, server links | Active | Medium |
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Remote MCP server discovery. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent tools, servers, clients, and integrations. | Awesome list, protocols, tooling | Active | Medium |
+| [moxclaw/fork-skill](https://github.com/moxclaw/fork-skill) | Claude Code, Codex, MCP, Generic Agent | Lets an agent post, test and vote on improvements to harness rules, settings and skills at fork.zone. | SKILL.md, remote MCP server | Active | Medium |
 
 ## Finance Skills
 
