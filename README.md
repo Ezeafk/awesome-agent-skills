@@ -89,6 +89,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code, Codex, Cursor, Copilot | Agentic software development methodology packaged as composable skills. | Skills framework, plugins, hooks, tests | Active | Medium |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Claude Code, Codex, Cursor, Gemini CLI | Turn codebases, schemas, docs, and media into a queryable knowledge graph for coding agents. | Knowledge graph, CLI, skills, tests | Active | Medium |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Claude Code, Codex, Cursor, OpenCode | Harness optimization system with skills, memory, security, and research discipline. | Skills, memory, security workflows, MCP | Active | Medium |
+| [google-code-review](https://github.com/instax-dutta/google-code-review/tree/main/skills/google-code-review) | Claude Code, Codex, Cursor, OpenCode | Review code or write a CL description to Google's published standard. | SKILL.md, reviewer and author guides, severity labels | Active | Low |
+| [dox-init](https://github.com/instax-dutta/dox-init) | Claude Code, Codex, Cursor, OpenCode | Bootstrap a DOX AGENTS.md hierarchy in a project. | SKILL.md, section rules, safe-overwrite flow | Active | Medium |
 
 ## Data Analysis
 
@@ -99,6 +101,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [EtienneLescot/n8n-as-code](https://github.com/EtienneLescot/n8n-as-code) | n8n, Claude, Cursor, Copilot | Give agents n8n workflow creation and sync capabilities. | TypeScript workflows, schemas, templates | Active | Medium |
 | [product-on-purpose/pm-skills](https://github.com/product-on-purpose/pm-skills) | Claude, Codex | Product management skill families and structured product workflows. | Skills, templates, examples, CI contracts | Active | Medium |
 | [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) | Generic Agent, MCP | Market research, strategy, and trading agent skills. | Awesome list, MCP servers, workflows | Active | High |
+| [finetune-llm](https://github.com/instax-dutta/finetune-llm/tree/main/skills/finetune-llm) | Claude Code, Codex, Cursor, OpenCode | Fine-tune an LLM against measured VRAM budgets with verification gates. | SKILL.md, VRAM planning table, failure signatures | Active | High |
+| [vibe-abliteration](https://github.com/instax-dutta/vibe-abliteration) | Claude Code, Codex, Cursor, OpenCode | Heretic abliteration with a deliberate refusals-versus-KL trade-off. | SKILL.md, parameter guide, verification steps | Active | High |
 
 ## Documents
 
@@ -115,6 +119,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [LingyiChen-AI/comfyui-workflow-skill](https://github.com/LingyiChen-AI/comfyui-workflow-skill) | Claude Code, Cursor, Generic Agent | Generate ComfyUI workflow JSON from natural language. | Templates, node definitions, model workflows | Active | Medium |
 | [SlavaSexton/ComfyUI-Agent-Kit](https://github.com/SlavaSexton/ComfyUI-Agent-Kit) | Claude Code, Codex, Gemini CLI | Drive local ComfyUI end to end from an agent. | Skill, prompt recipes, templates, automation | Active | Medium |
 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Claude Code, Codex, Cursor, Copilot, Windsurf | End-to-end agentic video production from research and scripting through asset generation, editing, localization, rendering, and post-render QA. | 12 pipelines, 100+ tools, 700+ skills, schemas, Remotion, FFmpeg, tests | Active | High |
+| [scroll-3d-world](https://github.com/instax-dutta/scroll-3d-world) | Claude Code, Codex, Cursor, OpenCode | Scroll-scrubbed Three.js fly-through landing page without AI video. | SKILL.md, camera choreography rules, QA checklist | Active | Medium |
+| [brand-vibes](https://github.com/instax-dutta/brand-vibes/tree/main/skills/brand-vibes) | Claude Code, Codex, Cursor, OpenCode | Apply a company's design language as semantic tokens. | SKILL.md, 66 brand profiles, DNA extraction workflow | Active | Medium |
 
 ## Browser and Web
 
@@ -156,6 +162,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Claude Code, Codex | Recency research skill for grounded summaries across social and web sources. | Skill, web research workflow, source synthesis | Active | Medium |
 | [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | Claude Code, Codex, Cursor, Generic Agent | Build a durable LLM-maintained wiki that ingests immutable sources, answers with citations, and lints evidence and links. | Skill, scripts, references, examples, linting | Active | Medium |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Claude Code, Codex, Cursor, Generic Agent | Scientific skill library for biology, chemistry, medicine, and research agents. | Scientific skills, databases, workflows | Active | High |
+| [market-validator](https://github.com/instax-dutta/market-validator) | Claude Code, Codex, Cursor, OpenCode | Validate an idea from real user complaints across 10+ platforms. | SKILL.md, query patterns, evidence scoring | Active | Medium |
+| [flash-compare](https://github.com/instax-dutta/flash-compare) | Claude Code, Codex, Cursor, OpenCode | Spec-checked product comparison that rejects marketing claims. | SKILL.md, source-of-truth table, reject rules | Active | Medium |
 
 ## MCP and Tool Integration
 
@@ -186,6 +194,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | Claude Code, Codex, Copilot, Gemini CLI, Generic Agent | Operate Drive, Gmail, Calendar, Sheets, Docs, Chat, and other Workspace APIs with CLI-backed skills, personas, and multi-step recipes. | CLI, 40+ skills, personas, recipes, structured JSON | Active | High |
 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Claude Code, MCP, SEO, GEO | Comprehensive Claude Code SEO skill suite for technical SEO, content quality, schema, GEO/AEO, local SEO, backlinks, e-commerce, international SEO, and reporting. | Skills, sub-agents, commands, MCP extensions, reports, tests | Active | High |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Claude Code, Codex | Marketing skills for CRO, copywriting, SEO, analytics, and growth. | Skills, marketing workflows | Active | Medium |
+| [darpa-audit](https://github.com/instax-dutta/darpa-audit/tree/main/skills/darpa-audit) | Claude Code, Codex, Cursor, OpenCode | Gate a startup or product idea with the Heilmeier Catechism. | SKILL.md, five forcing prompts, verdict format | Active | Low |
+| [master-pitcher](https://github.com/instax-dutta/master-pitcher/tree/main/skills/master-pitcher) | Claude Code, Codex, Cursor, OpenCode | Score a pitch deck out of 18 against a VC's 3-minute scan. | SKILL.md, 18-check framework, audit/draft/roast modes | Active | Low |
 
 ## Personal Productivity
 
