@@ -134,6 +134,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [snyk/agent-scan](https://github.com/snyk/agent-scan) | MCP, Generic Agent, Claude, Codex | Scan AI agents, MCP servers, and agent skills for vulnerabilities and risky tool behavior. | Security scanner, CLI, rules | Active | High |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code | Security research, vulnerability detection, and audit workflows from Trail of Bits. | Skills, audit workflows, examples | Active | High |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Generic Agent, MCP | Red-team AI infrastructure with agent, skill, MCP, jailbreak, and LLM security scans. | Red-team platform, scanners, reports | Active | High |
+| [priorart](https://github.com/KhomDev/priorart) | Claude, Cursor, Codex, MCP, CLI | Search audit reports and public write-ups for prior art and duplicate findings. Offline; read-only search. | Skill, CLI, MCP, GitHub Action | Active | Medium |
+| [realism-gate](https://github.com/KhomDev/realism-gate) | Claude, Cursor, Codex, MCP, CLI | Statically check Foundry, Solana, and Move (Sui/Aptos) exploit PoC tests and bind claims to evidence. Offline; never runs the PoC. | Skill, CLI, MCP, GitHub Action | Active | Medium |
 
 ## DevOps and Cloud
 
