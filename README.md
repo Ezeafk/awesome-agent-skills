@@ -167,6 +167,8 @@ Inclusion guide: 8-10 = recommended, 6-7 = acceptable with caveats, 4-5 = use wi
 | [jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers) | MCP | Remote MCP server discovery. | Awesome list, remote services | Active | Medium |
 | [ai-boost/awesome-a2a](https://github.com/ai-boost/awesome-a2a) | A2A, MCP, Generic Agent | Agent2Agent tools, servers, clients, and integrations. | Awesome list, protocols, tooling | Active | Medium |
 
+
+| [ViralForge](https://github.com/fendouai/ViralForge/tree/main/skills/viralforge) | Claude, Codex, MCP | Analyze local video structure and export editable projects. | Skill, CLI, MCP, tests | Active | Medium |
 ## Finance Skills
 
 | Skill | Platform | Use case | Includes | Status | Risk |
